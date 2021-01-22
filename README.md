@@ -6,18 +6,18 @@
 ---
 * [Courses](#courses)
 * [Books](#books)
-* [Data Deletion/Data Subject Access Requests](#data-deletion/data-subject-access-requests)
+* [Data Deletion and Data Subject Access Requests](#data-deletion-and-data-subject-access-requests)
 * [Privacy Tech Series](#privacy-tech-series-by-lea-kissner)
-* [Machine Learning, Artificial Intelligence, and Algorithmic Bias](#machine-learning,-artificial-intelligence,-and-algorithmic-bias)
+* [Machine Learning and Algorithmic Bias](#machine-learning-and-algorithmic-bias)
 * [Facial Recognition](#facial-recognition)
-* [De-Identification, Masking, and Anonymization](#de-identification,-masking,-and-anonymization)
+* [De-Identification and Anonymization](#de-identification-and-anonymization)
 * [Homomorphic Encryption](#homomorphic-encryption)
 * [Tokenization](#tokenization)
 * [Synthetic Data](#synthetic-data)
-* [Differential Privacy, Federated Learning, and Secure Multi-Party Computation](#differential-privacy,-federated-learning,-and-secure-multi-party-computation)
+* [Differential Privacy and Federated Learning](#differential-privacy-and-federated-learning)
 * [Designing for Trust with Users](#designing-for-trust-with-users)
 * [Dark Patterns in Digital Services](#dark-patterns-in-digital-services)
-* [Tagging Personally Identifiable Information (PII)](#tagging-personally-identifiable-information-(pii))
+* [Tagging Personally Identifiable Information](#tagging-personally-identifiable-information)
 * [Conferences](#conferences)
 * [Miscelleaneous](#miscellaneous)
 * [Other Awesome Privacy Curations](#other-awesome-privacy-curations)
@@ -50,7 +50,7 @@
 
 * [The Architecture of Privacy: On Engineering Technologies that Can Deliver Trustworthy Safeguards (Courtney Bowman, Ari Gesher, John K. Grant, Daniel Slate, Elissa Lerner)](https://www.amazon.com/Architecture-Privacy-Engineering-Technologies-Trustworthy-ebook/dp/B014LPOXU2)
 
-### Data Deletion/Data Subject Access Requests
+### Data Deletion and Data Subject Access Requests
 ---
 * [Deleting Data Distributed Throughout Your Microservices Architecture](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/deleting-data-distributed-throughout-your-microservices-architecture.html) - Microservices architectures tend to distribute responsibility for data throughout an organization. This poses challenges to ensuring that data is deleted.
 * [Handling Data Erasure Requests in Your Data Lake with Amazon S3 Find and Forget](https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/) - Amazon S3 Find and Forget enables you to find and delete records automatically in data lakes on Amazon S3. 
@@ -71,7 +71,7 @@
 * [Setting Data Retention Timelines](https://iapp.org/news/a/setting-data-retention-timelines/)
 * [Handling Human Names](https://iapp.org/news/a/talking-tech-handling-human-names/)
 
-### Machine Learning, Artificial Intelligence, and Algorithmic Bias
+### Machine Learning and Algorithmic Bias
 ---
 * [Pribot and Polisis](https://pribot.org) - Polisis is a unique way of visualizing privacy policies. Using deep learning, it allows you to know what the company is collecting about you, what it is sharing, etc.
 * [Ethical Machine Learning - Spotting and Preventing Proxy Bias](https://github.com/ropenscilabs/proxy-bias-vignette/blob/master/EthicalMachineLearning.ipynb) - Jupyter Notebook from rOpenSciLabs that explores several ways of detecting unintentional bias and removing it from a predictive model.
@@ -93,7 +93,7 @@ The potential for models to leak details from the data on which they’re traine
 * [NIST Biometric Research Dataset](https://www.nist.gov/news-events/news/2019/12/nist-releases-data-help-measure-accuracy-biometric-identification) - Stripped of identifying information and created expressly for research purposes, the data is designed primarily for testing systems that verify a person’s identity before granting access.
 * [Fawkes](https://github.com/Shawn-Shan/fawkes) - Fawkes, privacy preserving tool against facial recognition systems, developed by researchers at SANDLab, University of Chicago.
 
-### De-Identification, Masking, and Anonymization
+### De-Identification and Anonymization
 ---
 * [A Visual Guide to Practical Data De-Identification (FPF Infographic)](https://fpf.org/wp-content/2016/04/FPF_Visual_Guide_to_Practical_Data-DeID.pdf)
 * [NIST Privacy Engineering Program - De-Identification Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/browse/de-identification-tools)
@@ -128,7 +128,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Pynonymizer](https://pypi.org/project/pynonymizer/) - Pynonymizer is a universal tool for translating sensitive production database dumps into anonymized copies.
 * [Synthetic Data Vault](https://sdv.dev) - The Synthetic Data Vault (SDV) enables end users to easily generate Synthetic Data for different data modalities, including single table, multi-table and time series data.
 
-### Differential Privacy, Federated Learning, and Secure Multi-Party Computation
+### Differential Privacy and Federated Learning
 ---
 * [Differential Privacy at the U.S. Census Bureau](https://youtu.be/pT19VwBAqKA) - Video on how differential privacy is being implemented in the U.S. Census.
 * [Privacy-Preserving AI](https://www.youtube.com/watch?v=4zrU54VIK6k) - Video on Privacy Preserving AI (Andrew Trask) | MIT Deep Learning Series
@@ -180,7 +180,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Dark Patterns](https://www.darkpatterns.org) - Dark patterns are tricks used in websites and apps that make you do things that you didn't mean to do.
 * [The Dark Side of UX Design](https://darkpatterns.uxp2.com) - Practitioner-identified examples of stakeholder values superseding user values.
 
-### Tagging Personally Identifiable Information (PII)
+### Tagging Personally Identifiable Information
 ___
 * [Managing Tags in AWS Resource Groups](https://docs.aws.amazon.com/ARG/latest/userguide/tagging-resources.html) - Tags are words or phrases that act as metadata that you can use to identify and organize your AWS resources. A resource can have up to 50 user-applied tags.
 * [Categorizing Your AWS S3 Storage Using Tags](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html) - In addition to data classification, tagging offers benefits such as fine-grained access control of permissions and object lifecycle management.
