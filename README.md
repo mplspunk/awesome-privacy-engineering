@@ -89,13 +89,13 @@ The potential for models to leak details from the data on which they’re traine
 
 ### Facial Recognition
 ---
-* [Understanding Facial Detection, Characterization and Recognition Technologies (Future of Privacy Forum (FPF) Infographic)](https://fpf.org/wp-content/uploads/2017/06/FPF_Visual-Guide-to-Practical-Data-DeID.pdf)
+* [Understanding Facial Detection, Characterization and Recognition Technologies (Future of Privacy Forum (FPF) Infographic)](https://fpf.org/wp-content/uploads/2018/09/FPF_FaceRecognitionPoster_R5.pdf)
 * [NIST Biometric Research Dataset](https://www.nist.gov/news-events/news/2019/12/nist-releases-data-help-measure-accuracy-biometric-identification) - Stripped of identifying information and created expressly for research purposes, the data is designed primarily for testing systems that verify a person’s identity before granting access.
 * [Fawkes](https://github.com/Shawn-Shan/fawkes) - Fawkes, privacy preserving tool against facial recognition systems, developed by researchers at SANDLab, University of Chicago.
 
 ### De-Identification and Anonymization
 ---
-* [A Visual Guide to Practical Data De-Identification (FPF Infographic)](https://fpf.org/wp-content/2016/04/FPF_Visual_Guide_to_Practical_Data-DeID.pdf)
+* [A Visual Guide to Practical Data De-Identification (FPF Infographic)](https://fpf.org/wp-content/uploads/2017/06/FPF_Visual-Guide-to-Practical-Data-DeID.pdf)
 * [NIST Privacy Engineering Program - De-Identification Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/browse/de-identification-tools)
 * [Presidio](https://github.com/microsoft/presidio) - Context aware, pluggable and customizable PII anonymization service for text and images, developed by Microsoft.
 * [Redacting Sensitive Information with User-Defined Functions in Amazon Athena](https://aws.amazon.com/blogs/big-data/redacting-sensitive-information-with-user-defined-functions-in-amazon-athena/) - Amazon Athena supports user-defined functions, a feature that enables you to write custom scalar functions and invoke them in SQL queries. 
