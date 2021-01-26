@@ -127,6 +127,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Faker](https://pypi.org/project/faker) - Faker is a Python package that generates fake data for you.
 * [Pynonymizer](https://pypi.org/project/pynonymizer/) - Pynonymizer is a universal tool for translating sensitive production database dumps into anonymized copies.
 * [Synthetic Data Vault](https://sdv.dev) - The Synthetic Data Vault (SDV) enables end users to easily generate Synthetic Data for different data modalities, including single table, multi-table and time series data.
+* [Synthetic Data Generation: Quality, Privacy, Bias (Workshop at ICLR 2021)](https://sdg-quality-privacy-bias.github.io/) - This workshop deals with the intersection of challenges regarding quality, privacy and bias in synthetic data generation.
 
 ### Differential Privacy and Federated Learning
 ---
