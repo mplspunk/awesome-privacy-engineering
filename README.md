@@ -201,6 +201,7 @@ ___
 * [Data and the Connected Car (FPF Infographic)](https://fpf.org/wp-content/uploads/2017/06/2017_0627-FPF-Connected-Car-Infographic-Version-1.0.pdf)
 * [Microphones and the Internet of Things (FPF Infographic)](https://fpf.org/wp-content/uploads/2017/08/Microphones-Infographic-Final.pdf)
 * [GDPR – A Practical Guide For Developers](https://techblog.bozho.net/gdpr-practical-guide-developers/)
+* [W3C Self-Review Questionnaire: Security and Privacy](https://www.w3.org/TR/security-privacy-questionnaire/)
 
 ### Other Awesome Privacy Curations
 ---
