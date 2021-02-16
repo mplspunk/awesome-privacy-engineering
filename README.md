@@ -80,6 +80,7 @@
 * [How to Incorporate Ethics and Risk into Your Machine Learning Development Process](https://medium.com/the-official-integrate-ai-blog/how-to-incorporate-ethics-and-risk-into-your-machine-learning-development-process-4b8e9bc78ce0) - To help highlight ethics and risk in machine learning, this article looks at the six steps involved in developing an ML system, what happens in each step, and the risk and ethics questions that arise.
 * [DrivenData: Deon](https://deon.drivendata.org/examples/) - A command line tool to easily add an ethics checklist to your data science projects.
 * [People + AI Guidebook](https://pair.withgoogle.com) - A friendly, practical guide that lays out some best practices for creating useful, responsible AI applications.
+* [Why Some Models Leak Data](https://pair.withgoogle.com/explorables/data-leak/) - Machine learning models use large amounts of data, some of which can be sensitive. If they're not trained correctly, sometimes that data is inadvertently revealed.
 * [Fairlearn](https://github.com/fairlearn/fairlearn) - A Python package to assess and improve fairness of machine learning models. 
 * [InterpretML](https://interpret.ml) - A toolkit to help understand models and enable responsible machine learning.
 * [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) - A tool to quantify the privacy risks of machine learning models with respect to inference attacks, notably membership inference attacks 
