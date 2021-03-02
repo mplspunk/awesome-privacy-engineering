@@ -50,6 +50,8 @@
 
 * [The Architecture of Privacy: On Engineering Technologies that Can Deliver Trustworthy Safeguards (Courtney Bowman, Ari Gesher, John K. Grant, Daniel Slate, Elissa Lerner)](https://www.amazon.com/Architecture-Privacy-Engineering-Technologies-Trustworthy-ebook/dp/B014LPOXU2)
 
+* [Privacy by Design (Nishant Bhajaria)](https://www.manning.com/books/privacy-by-design)
+
 ### Data Deletion and Data Subject Access Requests
 ---
 * [Deleting Data Distributed Throughout Your Microservices Architecture](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/deleting-data-distributed-throughout-your-microservices-architecture.html) - Microservices architectures tend to distribute responsibility for data throughout an organization. This poses challenges to ensuring that data is deleted.
