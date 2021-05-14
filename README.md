@@ -59,6 +59,7 @@
     * [Amazon S3 Find and Forget](https://github.com/awslabs/amazon-s3-find-and-forget)
 * [Klaro!](https://github.com/kiprotect/klaro) Klaro is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website.
 * [OpenDSR](https://github.com/opengdpr/OpenDSR) A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
+* [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) PrivacyBot is a simple automated service to initiate California Consumer Privacy Act (CCPA) deletion requests with data brokers.
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
