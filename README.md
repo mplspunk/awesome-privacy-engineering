@@ -60,6 +60,7 @@
 * [Klaro!](https://github.com/kiprotect/klaro) Klaro is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website.
 * [OpenDSR](https://github.com/opengdpr/OpenDSR) A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
 * [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) PrivacyBot is a simple automated service to initiate California Consumer Privacy Act (CCPA) deletion requests with data brokers.
+* [Fides](https://github.com/ethyca/fides) An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
