@@ -30,7 +30,6 @@
 * [OpenMined Courses](https://courses.openmined.org/)
     * Our Privacy Opportunity (Beginner) (7.7 hours)
     * Foundations of Private Computation (Intermediate) (60 hours)
-    * Federated Learning Across Enterprises (Intermediate) (40 hours)
     * Federated Learning on Mobile (Intermediate) (40 hours)
 * [Data Privacy and Anonymization in R](https://www.datacamp.com/courses/data-privacy-and-anonymization-in-r) - Datacamp course that covers publicly releasing data sets with a differential privacy guarantee. 
 * [Secure and Private AI (Udacity)](https://www.udacity.com/course/secure-and-private-ai--ud185#) - Udacity course that covers how to extend PyTorch with the tools necessary to train AI models that preserve user privacy.
@@ -91,7 +90,8 @@
 * [Failure Modes in Machine Learning](https://docs.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning) - Privacy concerns can include model inversion, membership inference attack, etc.
 * [Privacy Considerations in Large Language Models](https://ai.googleblog.com/2020/12/privacy-considerations-in-large.html) - 
 The potential for models to leak details from the data on which they’re trained may be a concern for all large language models, and additional issues may arise if a model trained on private data were to be made publicly available.
-* [Explaining Decisions Made with AI](https://ico.org.uk/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence/) - Guidance by the UK's Information Commissioner's Office (ICO) and The Alan Turing Institute aims to give organisations practical advice to help explain the processes, services and decisions delivered or assisted by AI, to the individuals affected by them.  
+* [Explaining Decisions Made with AI](https://ico.org.uk/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence/) - Guidance by the UK's Information Commissioner's Office (ICO) and The Alan Turing Institute aims to give organisations practical advice to help explain the processes, services and decisions delivered or assisted by AI, to the individuals affected by them.
+* [Considerations for Sensitive Data within Machine Learning Datasets](https://cloud.google.com/architecture/sensitive-data-and-ml-datasets) - This Google Cloud article aims to highlight some strategies for identifying and protecting sensitive information, and processes to help address security concerns you might have with your machine learning data.
 
 ### Facial Recognition
 ---
