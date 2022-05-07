@@ -8,6 +8,7 @@
 * [Books](#books)
 * [Data Deletion and Data Subject Access Requests](#data-deletion-and-data-subject-access-requests)
 * [Privacy Tech Series](#privacy-tech-series-by-lea-kissner)
+* [Privacy Threat Modeling](#privacy-threat-modeling)
 * [Machine Learning and Algorithmic Bias](#machine-learning-and-algorithmic-bias)
 * [Facial Recognition](#facial-recognition)
 * [De-Identification and Anonymization](#de-identification-and-anonymization)
@@ -29,11 +30,19 @@
 ---
 * [OpenMined Courses](https://courses.openmined.org/)
     * Our Privacy Opportunity (Beginner) (7.7 hours)
+    * Introduction to Remote Data Science (Intermediate) (8 hours)
     * Foundations of Private Computation (Intermediate) (60 hours)
     * Federated Learning on Mobile (Intermediate) (40 hours)
 * [Data Privacy and Anonymization in R](https://www.datacamp.com/courses/data-privacy-and-anonymization-in-r) - Datacamp course that covers publicly releasing data sets with a differential privacy guarantee. 
+* [Data Privacy and Anonymization in Python](https://www.datacamp.com/courses/data-privacy-and-anonymization-in-python) - Datacamp course on learning to process sensitive information with privacy-preserving techniques.
 * [Secure and Private AI (Udacity)](https://www.udacity.com/course/secure-and-private-ai--ud185#) - Udacity course that covers how to extend PyTorch with the tools necessary to train AI models that preserve user privacy.
 * [Practical Data Ethics](https://ethics.fast.ai) - This class was originally taught in-person at the University of San Francisco Data Institute in January-February 2020.
+* [Privacy-Conscious Computer Systems](http://cs.brown.edu/courses/csci2390/2021/index.html) - This class at Brown University (CSCI 2390) focuses on how to design computer systems that protect users' privacy.
+* [Privacy by Design: Data Classification](https://www.linkedin.com/learning/privacy-by-design-data-classification/my-path-to-privacy) - LinkedIn Learning course by Nishant Bhajaria.
+* [Privacy by Design: Data Sharing](https://www.linkedin.com/learning/privacy-by-design-data-sharing/privacy-and-data-sharing) - LinkedIn Learning course by Nishant Bhajaria.
+* [Implementing a Privacy, Risk, and Assurance Program](https://www.linkedin.com/learning/implementing-a-privacy-risk-and-assurance-program/privacy-and-your-business) - LinkedIn Learning course by Nishant Bhajaria.
+* [Data Protocol](https://dataprotocol.com/courses) - Courses to teach developers and technical professionals how to build products responsibly and partner with platforms effectively.
+* [Carnegie Mellon University - Privacy Engineering Certificate](https://privacy.cs.cmu.edu/privacy-cert/index.html) - Four-week certificate program that revolves around a combination of mini-tutorials, class discussions, and hands-on exercises designed to ensure that students develop practical knowledge of all key privacy engineering areas. 
 
 ### Books
 ---
@@ -49,17 +58,23 @@
 
 * [The Architecture of Privacy: On Engineering Technologies that Can Deliver Trustworthy Safeguards (Courtney Bowman, Ari Gesher, John K. Grant, Daniel Slate, Elissa Lerner)](https://www.amazon.com/Architecture-Privacy-Engineering-Technologies-Trustworthy-ebook/dp/B014LPOXU2)
 
-* [Privacy by Design (Nishant Bhajaria)](https://www.manning.com/books/privacy-by-design)
+* [Data Privacy: A Runbook for Engineers (Nishant Bhajaria)](https://www.manning.com/books/data-privacy)
+
+* [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
 
 ### Data Deletion and Data Subject Access Requests
 ---
 * [Deleting Data Distributed Throughout Your Microservices Architecture](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/deleting-data-distributed-throughout-your-microservices-architecture.html) - Microservices architectures tend to distribute responsibility for data throughout an organization. This poses challenges to ensuring that data is deleted.
 * [Handling Data Erasure Requests in Your Data Lake with Amazon S3 Find and Forget](https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/) - Amazon S3 Find and Forget enables you to find and delete records automatically in data lakes on Amazon S3. 
     * [Amazon S3 Find and Forget](https://github.com/awslabs/amazon-s3-find-and-forget)
+* [How to Delete User Data in an AWS Data Lake](https://aws.amazon.com/blogs/big-data/how-to-delete-user-data-in-an-aws-data-lake/) This post walks through a framework that helps you purge individual user data within your organization’s AWS hosted data lake, and an analytics solution that uses different AWS storage layers, along with sample code targeting Amazon S3.
+    * [Data Purging AWS Data Lake](https://github.com/aws-samples/data-purging-aws-data-lake)
+* [Best Practices: GDPR and CCPA Compliance Using Delta Lake](https://docs.databricks.com/security/privacy/gdpr-delta.html) Article that describes how to use Delta Lake on Databricks to manage GDPR and CCPA compliance for a data lake. 
 * [Klaro!](https://github.com/kiprotect/klaro) Klaro is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website.
 * [OpenDSR](https://github.com/opengdpr/OpenDSR) A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
 * [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) PrivacyBot is a simple automated service to initiate California Consumer Privacy Act (CCPA) deletion requests with data brokers.
 * [Fides](https://github.com/ethyca/fides) An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
+* [Cookie Consent](https://github.com/osano/cookieconsent) An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the EU Cookie Law, CCPA, GDPR and other privacy laws. 
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
@@ -74,6 +89,11 @@
 * [Setting Data Retention Timelines](https://iapp.org/news/a/setting-data-retention-timelines/)
 * [Handling Human Names](https://iapp.org/news/a/talking-tech-handling-human-names/)
 
+### Privacy Threat Modeling
+---
+* [LINDDUN](https://www.linddun.org/linddun) The LINDDUN privacy engineering framework provides systematic support for the elicitation and mitigation of privacy threats in software systems.
+* [LINDDUN GO](https://www.linddun.org/go) LINDDUN GO is designed to give you a quick start to privacy threat modeling.
+
 ### Machine Learning and Algorithmic Bias
 ---
 * [Pribot and Polisis](https://pribot.org) - Polisis is a unique way of visualizing privacy policies. Using deep learning, it allows you to know what the company is collecting about you, what it is sharing, etc.
@@ -83,7 +103,12 @@
 * [How to Incorporate Ethics and Risk into Your Machine Learning Development Process](https://medium.com/the-official-integrate-ai-blog/how-to-incorporate-ethics-and-risk-into-your-machine-learning-development-process-4b8e9bc78ce0) - To help highlight ethics and risk in machine learning, this article looks at the six steps involved in developing an ML system, what happens in each step, and the risk and ethics questions that arise.
 * [DrivenData: Deon](https://deon.drivendata.org/examples/) - A command line tool to easily add an ethics checklist to your data science projects.
 * [People + AI Guidebook](https://pair.withgoogle.com) - A friendly, practical guide that lays out some best practices for creating useful, responsible AI applications.
-* [Why Some Models Leak Data](https://pair.withgoogle.com/explorables/data-leak/) - Machine learning models use large amounts of data, some of which can be sensitive. If they're not trained correctly, sometimes that data is inadvertently revealed.
+    * [Why Some Models Leak Data](https://pair.withgoogle.com/explorables/data-leak/) - Machine learning models use large amounts of data, some of which can be sensitive. If they're not trained correctly, sometimes that data is inadvertently revealed.
+    * [Datasets Have Worldviews](https://pair.withgoogle.com/explorables/dataset-worldviews/) - Every dataset communicates a different perspective. When you shift your perspective, your conclusions can shift, too.
+    * [Measuring Fairness](https://pair.withgoogle.com/explorables/measuring-fairness/) - How do you make sure a model works equally well for different groups of people? 
+    * [How Randomized Response Can Help Collect Sensitive Information Responsibly](https://pair.withgoogle.com/explorables/anonymization/) - Giant datasets are revealing new patterns in cancer, income inequality and other important areas. However, the widespread availability of fast computers that can cross reference public data is making it harder to collect private information without inadvertently violating people's privacy. Modern randomization techniques can help preserve anonymity.
+    * [Can a Model Be Differentially Private and Fair?](https://pair.withgoogle.com/explorables/private-and-fair/) - Training with differential privacy limits the information about any one data point that is extractable but in some cases there’s an unexpected side-effect: reduced accuracy with underrepresented subgroups disparately impacted.
+    * [Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/) - Models trained on real-world data can encode real-world bias. Hiding information about protected classes doesn't always fix things — sometimes it can even hurt.
 * [Fairlearn](https://github.com/fairlearn/fairlearn) - A Python package to assess and improve fairness of machine learning models. 
 * [InterpretML](https://interpret.ml) - A toolkit to help understand models and enable responsible machine learning.
 * [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) - A tool to quantify the privacy risks of machine learning models with respect to inference attacks, notably membership inference attacks 
@@ -92,6 +117,10 @@
 The potential for models to leak details from the data on which they’re trained may be a concern for all large language models, and additional issues may arise if a model trained on private data were to be made publicly available.
 * [Explaining Decisions Made with AI](https://ico.org.uk/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence/) - Guidance by the UK's Information Commissioner's Office (ICO) and The Alan Turing Institute aims to give organisations practical advice to help explain the processes, services and decisions delivered or assisted by AI, to the individuals affected by them.
 * [Considerations for Sensitive Data within Machine Learning Datasets](https://cloud.google.com/architecture/sensitive-data-and-ml-datasets) - This Google Cloud article aims to highlight some strategies for identifying and protecting sensitive information, and processes to help address security concerns you might have with your machine learning data.
+* [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) - Responsible AI Toolbox is a suite of tools from Microsoft that provides a collection of model and data exploration and assessment user interfaces that enable a better understanding of AI systems. The Toolbox consists of four dashboards: Error Analysis dashboard, Interpretability dashboard, Fairness dashboard, and Responsible AI dashboard.
+* [Of Oaths and Checklists](https://www.oreilly.com/radar/of-oaths-and-checklists/) - A checklist for people who are working on data projects, authored by DJ Patil, Hilary Mason, and Mike Loukides.
+* [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) - A Kaggle Learn course to explore practical tools to guide the moral design of AI systems.
+* [Failure Modes in Machine Learning](https://docs.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning) - Documentation compiled by Microsoft regarding the different ways that machine learning can fail, both intentionally (through adversarial attack) and unintentionally (formally correct but completely unsafe outcome).
 
 ### Facial Recognition
 ---
