@@ -67,14 +67,14 @@
 * [Deleting Data Distributed Throughout Your Microservices Architecture](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/deleting-data-distributed-throughout-your-microservices-architecture.html) - Microservices architectures tend to distribute responsibility for data throughout an organization. This poses challenges to ensuring that data is deleted.
 * [Handling Data Erasure Requests in Your Data Lake with Amazon S3 Find and Forget](https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/) - Amazon S3 Find and Forget enables you to find and delete records automatically in data lakes on Amazon S3. 
     * [Amazon S3 Find and Forget](https://github.com/awslabs/amazon-s3-find-and-forget)
-* [How to Delete User Data in an AWS Data Lake](https://aws.amazon.com/blogs/big-data/how-to-delete-user-data-in-an-aws-data-lake/) This post walks through a framework that helps you purge individual user data within your organization’s AWS hosted data lake, and an analytics solution that uses different AWS storage layers, along with sample code targeting Amazon S3.
+* [How to Delete User Data in an AWS Data Lake](https://aws.amazon.com/blogs/big-data/how-to-delete-user-data-in-an-aws-data-lake/) - This post walks through a framework that helps you purge individual user data within your organization’s AWS hosted data lake, and an analytics solution that uses different AWS storage layers, along with sample code targeting Amazon S3.
     * [Data Purging AWS Data Lake](https://github.com/aws-samples/data-purging-aws-data-lake)
-* [Best Practices: GDPR and CCPA Compliance Using Delta Lake](https://docs.databricks.com/security/privacy/gdpr-delta.html) Article that describes how to use Delta Lake on Databricks to manage GDPR and CCPA compliance for a data lake. 
-* [Klaro!](https://github.com/kiprotect/klaro) Klaro is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website.
-* [OpenDSR](https://github.com/opengdpr/OpenDSR) A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
-* [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) PrivacyBot is a simple automated service to initiate California Consumer Privacy Act (CCPA) deletion requests with data brokers.
-* [Fides](https://github.com/ethyca/fides) An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
-* [Cookie Consent](https://github.com/osano/cookieconsent) An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the EU Cookie Law, CCPA, GDPR and other privacy laws. 
+* [Best Practices: GDPR and CCPA Compliance Using Delta Lake](https://docs.databricks.com/security/privacy/gdpr-delta.html) - Article that describes how to use Delta Lake on Databricks to manage General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) compliance for a data lake. 
+* [Klaro!](https://github.com/kiprotect/klaro) - Klaro is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website.
+* [OpenDSR](https://github.com/opengdpr/OpenDSR) - A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
+* [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) - PrivacyBot is a simple automated service to initiate CCPA deletion requests with data brokers.
+* [Fides](https://github.com/ethyca/fides) - An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
+* [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the EU Cookie Law, CCPA, GDPR and other privacy laws. 
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
@@ -91,8 +91,8 @@
 
 ### Privacy Threat Modeling
 ---
-* [LINDDUN](https://www.linddun.org/linddun) The LINDDUN privacy engineering framework provides systematic support for the elicitation and mitigation of privacy threats in software systems.
-* [LINDDUN GO](https://www.linddun.org/go) LINDDUN GO is designed to give you a quick start to privacy threat modeling.
+* [LINDDUN](https://www.linddun.org/linddun) - The LINDDUN privacy engineering framework provides systematic support for the elicitation and mitigation of privacy threats in software systems.
+* [LINDDUN GO](https://www.linddun.org/go) - LINDDUN GO is designed to give you a quick start to privacy threat modeling.
 
 ### Machine Learning and Algorithmic Bias
 ---
@@ -117,7 +117,7 @@
 The potential for models to leak details from the data on which they’re trained may be a concern for all large language models, and additional issues may arise if a model trained on private data were to be made publicly available.
 * [Explaining Decisions Made with AI](https://ico.org.uk/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence/) - Guidance by the UK's Information Commissioner's Office (ICO) and The Alan Turing Institute aims to give organisations practical advice to help explain the processes, services and decisions delivered or assisted by AI, to the individuals affected by them.
 * [Considerations for Sensitive Data within Machine Learning Datasets](https://cloud.google.com/architecture/sensitive-data-and-ml-datasets) - This Google Cloud article aims to highlight some strategies for identifying and protecting sensitive information, and processes to help address security concerns you might have with your machine learning data.
-* [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) - Responsible AI Toolbox is a suite of tools from Microsoft that provides a collection of model and data exploration and assessment user interfaces that enable a better understanding of AI systems. The Toolbox consists of four dashboards: Error Analysis dashboard, Interpretability dashboard, Fairness dashboard, and Responsible AI dashboard.
+* [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) - Responsible AI Toolbox is a suite of tools from Microsoft that provides a collection of model and data exploration and assessment user interfaces that enable a better understanding of AI systems. The Toolbox consists of four dashboards: an Error Analysis dashboard, an Interpretability dashboard, a Fairness dashboard, and a Responsible AI dashboard.
 * [Of Oaths and Checklists](https://www.oreilly.com/radar/of-oaths-and-checklists/) - A checklist for people who are working on data projects, authored by DJ Patil, Hilary Mason, and Mike Loukides.
 * [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) - A Kaggle Learn course to explore practical tools to guide the moral design of AI systems.
 * [Failure Modes in Machine Learning](https://docs.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning) - Documentation compiled by Microsoft regarding the different ways that machine learning can fail, both intentionally (through adversarial attack) and unintentionally (formally correct but completely unsafe outcome).
