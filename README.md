@@ -1,4 +1,4 @@
-## Awesome Privacy Engineering
+## Awesome Privacy Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of resources related to privacy engineering
 
