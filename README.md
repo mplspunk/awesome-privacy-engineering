@@ -146,12 +146,23 @@ The potential for models to leak details from the data on which they’re traine
 * [Anonymizer MySQL](https://www.npmjs.com/package/anonymizer-mysql) - This simple tool will allow you to make anonymizerd clone of your database.
 * [MySQL Data Anonymizer](https://github.com/globalis-ms/mysql-data-anonymizer) - MySQL Data Anonymizer is a PHP library that anonymizes your data in the database.
 * [Anonymizer](https://github.com/DivanteLtd/anonymizer) - Anonymizer is a universal tool to create anonymized DBs for projects.
+* [Kodex (Community Edition - CE)](https://github.com/kiprotect/kodex) - An open-source toolkit for privacy and security engineering that helps automate data security and data protection measures in your data engineering workflows.
+* [Singapore Guide to Anonymization](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Advisory-Guidelines/Guide-to-Basic-Anonymisation-31-March-2022.ashx) - The Singapore Personal Data Protection Commission (PDPC) has published the Guide on Basic Anonymization to provide more practical guidance for businesses on how to appropriately perform basic anonymization and de-identification of various datasets.
+* [Transforming Data in Google Cloud Platform](https://cloud.google.com/dlp/docs/transformations-reference) - This reference covers the available de-identification techniques, or transformations, that can be applied in Google Cloud's Data Loss Prevention (DLP). Includes redaction, replacement, masking, crypto-based tokenization, bucketing, date shifting, and time extraction.
+* Measuring Re-Identification Risk / Privacy Definitions - A series of helpful blog posts by Damien Desfontaines on privacy definitions that attempt to quantify the level of risk associated with a dataset.
+    *  [k-anonymity](https://desfontain.es/privacy/k-anonymity.html)
+    *  [k-map](https://desfontain.es/privacy/k-map.html)
+    *  [l-diversity](https://desfontain.es/privacy/l-diversity.html)
+    *  [delta-presence](https://desfontain.es/privacy/delta-presence.html)
+* [Technical Privacy Metrics: a Systematic Survey](https://arxiv.org/abs/1512.00327) - Paper by Isabel Wagner and David Eckhoff that discusses over 80 privacy metrics and introduces categorizations based on the aspect of privacy they measure, their required inputs, and the type of data that needs protection. They also present a method on how to choose privacy metrics based on nine questions that help identify the right privacy metrics for a given scenario.
 
 ### Homomorphic Encryption
 ---
 * [Building Safe A.I.: A Tutorial for Encrypted Deep Learning](https://iamtrask.github.io/2017/03/17/safe-ai/) - Blogpost on how to train a neural network that is fully encrypted during training.
 * [Microsoft SEAL](https://github.com/microsoft/SEAL) - Microsoft SEAL is an easy-to-use open-source (MIT licensed) homomorphic encryption library developed by the Cryptography and Privacy Research group at Microsoft.
 * [nGraph-HE: A Graph Compiler for Deep Learning on Homomorphically Encrypted Data](https://arxiv.org/abs/1810.10121) - Intel Research proposes an extension to its deep learning compiler to operate on homomorphically encrypted data.
+* [Google Fully-Homomorphic-Encryption](https://github.com/google/fully-homomorphic-encryption) - This repository created by Google contains open-source libraries and tools to perform fully homomorphic encryption operations on an encrypted data set.
+* [Palisade Homomorphic Encryption Software Library](https://palisade-crypto.org/) - An open-source project that provides efficient implementations of lattice cryptography building blocks and homomorphic encryption schemes.
 
 ### Tokenization
 ---
@@ -163,7 +174,13 @@ The potential for models to leak details from the data on which they’re traine
 * [Faker](https://pypi.org/project/faker) - Faker is a Python package that generates fake data for you.
 * [Pynonymizer](https://pypi.org/project/pynonymizer/) - Pynonymizer is a universal tool for translating sensitive production database dumps into anonymized copies.
 * [Synthetic Data Vault](https://sdv.dev) - The Synthetic Data Vault (SDV) enables end users to easily generate Synthetic Data for different data modalities, including single table, multi-table and time series data.
-* [Synthetic Data Generation: Quality, Privacy, Bias (Workshop at ICLR 2021)](https://sdg-quality-privacy-bias.github.io/) - This workshop deals with the intersection of challenges regarding quality, privacy and bias in synthetic data generation.
+* [Synthetic Data Generation: Quality, Privacy, Bias (Workshop at ICLR 2021)](https://sdg-quality-privacy-bias.github.io/) - Workshop on the intersection of challenges regarding quality, privacy and bias in synthetic data generation.
+* [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html) - R package for producing synthetic versions of microdata containing confidential information so that they are safe to be released to users for exploratory analysis.
+* [Synthea](https://synthetichealth.github.io/synthea/) - An open-source, synthetic patient generator that models the medical history of synthetic patients.
+* [Presidio Evaluator - Data Generator](
+https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/data_generator) - This data generator takes a text file with templates (e.g. my name is x]) and creates a list of InputSamples which contain fake PII entities instead of placeholders.
+* [Mimesis](https://github.com/lk-geimfari/mimesis) - Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages. 
+* [plaitpy](https://github.com/plaitpy/plaitpy) - plait.py is a program for generating fake data from composable yaml templates.
 
 ### Differential Privacy and Federated Learning
 ---
@@ -179,10 +196,9 @@ The potential for models to leak details from the data on which they’re traine
 * [NIST Differential Privacy Blog Series](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog) - This series is designed to help business process owners and privacy program personnel understand basic concepts about differential privacy and applicable use cases and to help privacy engineers and IT professionals implement the tools.
 * [Private Join and Compute](https://github.com/Google/private-join-and-compute) - Google's implementation of the "Private Join and Compute" functionality. This functionality allows two users, each holding an input file, to privately compute the sum of associated values for records that have common identifiers.
 * [FedJAX](https://github.com/google/fedjax) - Google's JAX-based open source library for federated learning simulations that emphasizes ease-of-use in research.
-* R Packages
-    * [diffpriv: Easy Differential Privacy](https://cran.r-project.org/package=diffpriv) - An implementation of major general-purpose mechanisms for privatizing statistics, models, and machine learners, within the framework of differential privacy of Dwork et al. (2006).
-    * [sdcMicro: Statistical Disclosure Control Methods for Anonymization of Microdata and Risk Estimation](https://cran.r-project.org/package=sdcMicro) -  This package (see also Templ, Kowarik and Meindl (2017) can be used for the generation of anonymized (micro)data, i.e. for the creation of public- and scientific-use files. 
-    * [PPRL: Privacy Preserving Record Linkage](https://rdrr.io/cran/PPRL/) - A toolbox for deterministic, probabilistic and privacy-preserving record linkage techniques.
+* [diffpriv: Easy Differential Privacy](https://cran.r-project.org/package=diffpriv) - R package that is an implementation of major general-purpose mechanisms for privatizing statistics, models, and machine learners, within the framework of differential privacy of Dwork et al. (2006).
+* [sdcMicro: Statistical Disclosure Control Methods for Anonymization of Microdata and Risk Estimation](https://cran.r-project.org/package=sdcMicro) -  R package that can be used for the generation of anonymized (micro)data, i.e. for the creation of public- and scientific-use files. 
+* [PPRL: Privacy Preserving Record Linkage](https://rdrr.io/cran/PPRL/) - R package that is a toolbox for deterministic, probabilistic and privacy-preserving record linkage techniques.
 
 * TensorFlow
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
@@ -213,6 +229,8 @@ The potential for models to leak details from the data on which they’re traine
     * [Part 2: Better Cookie Consent Experiences](https://www.smashingmagazine.com/2019/04/privacy-ux-better-cookie-consent-experiences/)
     * [Part 3: Better Notifications UX and Permissions Requests](https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-permission-requests/)
     * [Part 4: Privacy-Aware Design Framework](https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/)
+* [Lean Privacy Review](https://cylab.cmu.edu/news/2021/11/19-LPR.html) - Carnegie Mellon University researchers developed a fast, easy method to catch privacy issues early in a system’s development process by gathering feedback from users.
+    * [Lean Privacy Review](http://www.leanprivacyreview.com/#)
 
 ### Dark Patterns in Digital Services
 ---
@@ -243,8 +261,9 @@ ___
 
 ### Other Awesome Privacy Curations
 ---
-* [Awesome-Data-Privacy](https://github.com/yilmaztolga/awesome-data-privacy)
-* [Awesome-Federated-Computing](https://github.com/tushar-semwal/awesome-federated-computing)
+* [awesome-data-privacy](https://github.com/yilmaztolga/awesome-data-privacy)
+* [awesome-federated-computing](https://github.com/tushar-semwal/awesome-federated-computing)
+* [awesome-gdpr](https://github.com/bakke92/awesome-gdpr)
 
 ### Related GitHub Topics
 ___
