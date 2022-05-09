@@ -48,19 +48,12 @@
 ### Books
 ---
 * [The Privacy Engineer's Manifesto: Getting from Policy to Code to QA to Value (Michelle Dennedy, Jonathan Fox, Tom Finneran)](https://www.amazon.com/Privacy-Engineers-Manifesto-Getting-Policy/dp/1430263555)
-
 * [Information Privacy Engineering and Privacy by Design: Understanding Privacy Threats, Technology, and Regulations Based on Standards and Best Practices (William Stallings)](https://www.amazon.com/Information-Privacy-Engineering-Design-Understanding/dp/0135302153)
-
 * [The Algorithmic Foundation of Differential Privacy (Cynthia Dwork, Aaron Roth)](https://columbia.github.io/private-systems-class/papers/Dwork2013Foundations.pdf)
-
 * [Building an Anonymization Pipeline: Creating Safe Data (Luk Arbuckle, Khaled El Emam)](https://www.amazon.com/Building-Anonymization-Pipeline-Creating-Safe/dp/1492053430)
-
 * [Strategic Privacy by Design (R. Jason Cronk)](https://iapp.org/store/books/a191a00000345yDAAQ/)
-
 * [The Architecture of Privacy: On Engineering Technologies that Can Deliver Trustworthy Safeguards (Courtney Bowman, Ari Gesher, John K. Grant, Daniel Slate, Elissa Lerner)](https://www.amazon.com/Architecture-Privacy-Engineering-Technologies-Trustworthy-ebook/dp/B014LPOXU2)
-
 * [Data Privacy: A Runbook for Engineers (Nishant Bhajaria)](https://www.manning.com/books/data-privacy)
-
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
 
 ### Data Deletion and Data Subject Access Requests
