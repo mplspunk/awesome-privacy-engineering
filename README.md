@@ -148,7 +148,7 @@ The potential for models to leak details from the data on which they’re traine
 * [MySQL Data Anonymizer](https://github.com/globalis-ms/mysql-data-anonymizer) - MySQL Data Anonymizer is a PHP library that anonymizes your data in the database.
 * [Anonymizer](https://github.com/DivanteLtd/anonymizer) - Anonymizer is a universal tool to create anonymized DBs for projects.
 * [Singapore Guide to Anonymization](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Advisory-Guidelines/Guide-to-Basic-Anonymisation-31-March-2022.ashx) - The Singapore Personal Data Protection Commission (PDPC) has published the Guide on Basic Anonymization to provide more practical guidance for businesses on how to appropriately perform basic anonymization and de-identification of various datasets.
-* [Transforming Data in Google Cloud Platform](https://cloud.google.com/dlp/docs/transformations-reference) - This reference covers the available de-identification techniques, or transformations, that can be applied in Google Cloud's Data Loss Prevention (DLP). Includes redaction, replacement, masking, crypto-based tokenization, bucketing, date shifting, and time extraction.
+* [Transforming Data in Google Cloud Platform](https://cloud.google.com/dlp/docs/transformations-reference) - This reference covers the available de-identification techniques, or transformations, that can be applied in Google Cloud's Data Loss Prevention (i.e., redaction, replacement, masking, crypto-based tokenization, bucketing, date shifting, and time extraction).
 * Measuring Re-Identification Risk / Privacy Definitions - A series of helpful blog posts by Damien Desfontaines on privacy definitions that attempt to quantify the level of risk associated with a dataset.
     *  [k-anonymity](https://desfontain.es/privacy/k-anonymity.html)
     *  [k-map](https://desfontain.es/privacy/k-map.html)
@@ -188,7 +188,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [Differential Privacy at the U.S. Census Bureau](https://youtu.be/pT19VwBAqKA) - Video on how differential privacy is being implemented in the U.S. Census.
 * [Privacy-Preserving AI](https://www.youtube.com/watch?v=4zrU54VIK6k) - Video on Privacy Preserving AI (Andrew Trask) | MIT Deep Learning Series
 * [Pysyft](https://github.com/OpenMined/PySyft) - PySyft is a Python library for secure and private Deep Learning.
-* [Crypten](https://github.com/facebookresearch/CrypTen) - CrypTen is a framework for Privacy Preserving Machine Learning built on PyTorch.
+* [CrypTen](https://github.com/facebookresearch/CrypTen) - CrypTen is a framework for Privacy Preserving Machine Learning built on PyTorch.
 * [Opacus](https://github.com/pytorch/opacus) - A library that enables training PyTorch models with differential privacy.
 * [Uber SQL Differential Privacy](https://github.com/uber/sql-differential-privacy) - This repository contains a query analysis and rewriting framework to enforce differential privacy for general-purpose SQL queries. (deprecated)
 * [Google Differential Privacy Library](https://github.com/google/differential-privacy) - This repository contains libraries to generate ε- and (ε, δ)-differentially private statistics over datasets.
@@ -203,19 +203,16 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [PipelineDP](https://pipelinedp.io/) - Write fast, flexible pipelines that use modern techniques to aggregate user data in a privacy-preserving manner.
 * [Practical Differential Privacy w/ Apache Beam](https://dev.to/bamnet/practical-differential-privacy-w-apache-beam-4bki) - Blog post showing how to use Privacy on Beam from Google's differential privacy library.
 * [Computing Private Statistics with Privacy on Beam](https://codelabs.developers.google.com/codelabs/privacy-on-beam#0) - This Google Developer Codelab walks through the use of Privacy on Beam to perform differentially private analysis.
-
 * TensorFlow
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
     * [TensorFlow Federated](https://www.tensorflow.org/federated) - TensorFlow Federated (TFF) is an open-source framework for machine learning and other computations on decentralized data.
     * [TensorFlow Encrypted](https://github.com/tf-encrypted/tf-encrypted) - TF Encrypted is a framework for encrypted machine learning in TensorFlow.
     * [CrypTFlow](https://github.com/mpc-msri/EzPC) - CrypTFlow is a system for end-to-end secure inference of deep neural networks written in TensorFlow.
-
 * Four-Episode Podcast on Differential Privacy by [This Week in Machine Learning and AI](https://twimlai.com)
     * [Differential Privacy Theory & Practice with Aaron Roth](https://twimlai.com/twiml-talk-132-differential-privacy-theory-practice-with-aaron-roth/)
     * [Differential Privacy at Bluecore with Zahi Karam](https://twimlai.com/twiml-talk-133-differential-privacy-at-bluecore-with-zahi-karam/)
     * [Scalable Differential Privacy for Deep Learning with Nicolas Papernot](https://twimlai.com/twiml-talk-134-scalable-differential-privacy-for-deep-learning-with-nicolas-papernot/)
     * [Epsilon Software for Private Machine Learning with Chang Lu](https://twimlai.com/twiml-talk-135-epsilon-software-for-private-machine-learning-with-chang-liu/)
-
 * Episode of This Week in Machine Learning and AI Podcast:
     * [Privacy-Preserving Decentralized Data Science with Andrew Trask](https://twimlai.com/twiml-talk-241-privacy-preserving-decentralized-data-science/)
 
@@ -233,8 +230,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
     * [Part 2: Better Cookie Consent Experiences](https://www.smashingmagazine.com/2019/04/privacy-ux-better-cookie-consent-experiences/)
     * [Part 3: Better Notifications UX and Permissions Requests](https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-permission-requests/)
     * [Part 4: Privacy-Aware Design Framework](https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/)
-* [Lean Privacy Review](https://cylab.cmu.edu/news/2021/11/19-LPR.html) - Carnegie Mellon University researchers developed a fast, easy method to catch privacy issues early in a system’s development process by gathering feedback from users.
-    * [Lean Privacy Review](http://www.leanprivacyreview.com/#)
+* [Lean Privacy Review](http://www.leanprivacyreview.com/#) - Carnegie Mellon University researchers developed a fast, easy method to catch privacy issues early in a system’s development process by gathering feedback from users.
 
 ### Dark Patterns in Digital Services
 ---
@@ -254,9 +250,8 @@ ___
 ---
 * [Global Comprehensive Privacy Law Mapping Chart](https://iapp.org/resources/article/global-comprehensive-privacy-law-mapping-chart/) - The IAPP's Westin Research Center has created this chart mapping several comprehensive data protection laws.
 * [US State Privacy Legislation Tracker](https://iapp.org/resources/article/us-state-privacy-legislation-tracker/) - The IAPP Westin Research Center actively tracks the proposed and enacted comprehensive privacy bills from across the United States.
-* [Privacy in M&A transactions: The Playbook](https://iapp.org/resources/article/privacy-in-ma-transactions-playbook/) - The playbook is directed to mergers and acquisitions (M&A teams) and privacy teams to help identify potential privacy-related issues.
-* [European Data Protection Supervisor (EDPS) Website Evidence Collector](https://edps.europa.eu/edps-inspection-software_en
-https://github.com/EU-EDPS/website-evidence-collector)
+* [Privacy in M&A transactions: The Playbook](https://iapp.org/resources/article/privacy-in-ma-transactions-playbook/) - The playbook is directed to mergers and acquisitions (M&A) and privacy teams to help identify potential privacy-related issues.
+* [European Data Protection Supervisor Website Evidence Collector](https://github.com/EU-EDPS/website-evidence-collector) - The Website Evidence Collector tool automates the collection of evidence of personal data processing, such as cookies, or requests to third parties.
 * [GDPR Developer Guide](https://github.com/LINCnil/GDPR-Developer-Guide) - In order to assist web and application developers in making their work GDPR-compliant, France's Data Protection Agency, the CNIL, has drawn up a guide of best practices.
 * [Data Protection/Privacy Mapping Project](https://github.com/microsoft/data-protection-mapping-project) - Microsoft's Data Protection/Privacy Mapping Project facilitates consistent global comprehension and implementation of data protection with an open source mapping between ISO/IEC 27701 and global data protection and/or privacy laws and regulations.
 * [European Data Protection Board Guidelines 4/2019 on Article 25, Data Protection by Design and by Default](https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) - This document gives general guidance on the obligation of Data Protection by Design and by Default set forth in Article 25 in the GDPR.
