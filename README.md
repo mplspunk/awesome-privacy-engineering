@@ -19,6 +19,7 @@
 * [Designing for Trust with Users](#designing-for-trust-with-users)
 * [Dark Patterns in Digital Services](#dark-patterns-in-digital-services)
 * [Tagging Personally Identifiable Information](#tagging-personally-identifiable-information)
+* [Regulatory Resources](#regulatory-resources)
 * [Conferences](#conferences)
 * [Miscelleaneous](#miscellaneous)
 * [Other Awesome Privacy Curations](#other-awesome-privacy-curations)
@@ -183,6 +184,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 
 ### Differential Privacy and Federated Learning
 ---
+* [A Friendly, Non-Technical Introduction to Differential Privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) - Blog post that provides simple explanations for the core concepts behind differential privacy.
 * [Differential Privacy at the U.S. Census Bureau](https://youtu.be/pT19VwBAqKA) - Video on how differential privacy is being implemented in the U.S. Census.
 * [Privacy-Preserving AI](https://www.youtube.com/watch?v=4zrU54VIK6k) - Video on Privacy Preserving AI (Andrew Trask) | MIT Deep Learning Series
 * [Pysyft](https://github.com/OpenMined/PySyft) - PySyft is a Python library for secure and private Deep Learning.
@@ -198,6 +200,9 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [diffpriv: Easy Differential Privacy](https://cran.r-project.org/package=diffpriv) - R package that is an implementation of major general-purpose mechanisms for privatizing statistics, models, and machine learners, within the framework of differential privacy of Dwork et al. (2006).
 * [sdcMicro: Statistical Disclosure Control Methods for Anonymization of Microdata and Risk Estimation](https://cran.r-project.org/package=sdcMicro) -  R package that can be used for the generation of anonymized (micro)data, i.e. for the creation of public- and scientific-use files. 
 * [PPRL: Privacy Preserving Record Linkage](https://rdrr.io/cran/PPRL/) - R package that is a toolbox for deterministic, probabilistic and privacy-preserving record linkage techniques.
+* [PipelineDP](https://pipelinedp.io/) - Write fast, flexible pipelines that use modern techniques to aggregate user data in a privacy-preserving manner.
+* [Practical Differential Privacy w/ Apache Beam](https://dev.to/bamnet/practical-differential-privacy-w-apache-beam-4bki) - Blog post showing how to use Privacy on Beam from Google's differential privacy library.
+* [Computing Private Statistics with Privacy on Beam](https://codelabs.developers.google.com/codelabs/privacy-on-beam#0) - This Google Developer Codelab walks through the use of Privacy on Beam to perform differentially private analysis.
 
 * TensorFlow
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
@@ -244,6 +249,18 @@ ___
 * [Quickstart for Tagging Tables in Google Cloud](https://cloud.google.com/data-catalog/docs/quickstart-tagging) - Tutorial shows how to create a BigQuery dataset, copy data to a new table in your dataset, create a tag template, and attach the tag to your table.
 * [Using Policy Tags in Google Cloud's BigQuery](https://cloud.google.com/bigquery/docs/best-practices-policy-tags) - Use policy tags to define access to your data, for example, when you use BigQuery column-level security.
 * [Adding a Tag-Based PII Policy in Cloudera](https://docs.cloudera.com/runtime/7.0.2/security-ranger-authorization/topics/security-ranger-tag-policy-add-pii.html) - How to add a PII tag-based policy. In this example, the author creates a tag-based policy for objects tagged "PII" in Atlas. 
+
+### Regulatory Resources
+---
+* [Global Comprehensive Privacy Law Mapping Chart](https://iapp.org/resources/article/global-comprehensive-privacy-law-mapping-chart/) - The IAPP's Westin Research Center has created this chart mapping several comprehensive data protection laws.
+* [US State Privacy Legislation Tracker](https://iapp.org/resources/article/us-state-privacy-legislation-tracker/) - The IAPP Westin Research Center actively tracks the proposed and enacted comprehensive privacy bills from across the United States.
+* [Privacy in M&A transactions: The Playbook](https://iapp.org/resources/article/privacy-in-ma-transactions-playbook/) - The playbook is directed to mergers and acquisitions (M&A teams) and privacy teams to help identify potential privacy-related issues.
+* [European Data Protection Supervisor (EDPS) Website Evidence Collector](https://edps.europa.eu/edps-inspection-software_en
+https://github.com/EU-EDPS/website-evidence-collector)
+* [GDPR Developer Guide](https://github.com/LINCnil/GDPR-Developer-Guide) - In order to assist web and application developers in making their work GDPR-compliant, France's Data Protection Agency, the CNIL, has drawn up a guide of best practices.
+* [Data Protection/Privacy Mapping Project](https://github.com/microsoft/data-protection-mapping-project) - Microsoft's Data Protection/Privacy Mapping Project facilitates consistent global comprehension and implementation of data protection with an open source mapping between ISO/IEC 27701 and global data protection and/or privacy laws and regulations.
+* [European Data Protection Board Guidelines 4/2019 on Article 25, Data Protection by Design and by Default](https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) - This document gives general guidance on the obligation of Data Protection by Design and by Default set forth in Article 25 in the GDPR.
+* [A Guide to Privacy by Design](https://www.aepd.es/sites/default/files/2019-12/guia-privacidad-desde-diseno_en.pdf) - This document by Spain's Data Protection Agency, AEPD, provides guidance on implementation of Privacy by Design into systems and applications.
 
 ### Conferences
 ---
