@@ -14,6 +14,7 @@
 * [De-Identification and Anonymization](#de-identification-and-anonymization)
 * [Homomorphic Encryption](#homomorphic-encryption)
 * [Tokenization](#tokenization)
+* [Secure Multi-Party Computation](#secure-multi-party-computation)
 * [Synthetic Data](#synthetic-data)
 * [Differential Privacy and Federated Learning](#differential-privacy-and-federated-learning)
 * [Designing for Trust with Users](#designing-for-trust-with-users)
@@ -68,7 +69,7 @@
 * [OpenDSR](https://github.com/opengdpr/OpenDSR) - A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
 * [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) - PrivacyBot is a simple automated service to initiate CCPA deletion requests with data brokers.
 * [Fides](https://github.com/ethyca/fides) - An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
-* [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the EU Cookie Law, CCPA, GDPR and other privacy laws. 
+* [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the Eureopean Union Cookie Law, CCPA, GDPR and other privacy laws. 
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
@@ -161,6 +162,9 @@ The potential for models to leak details from the data on which they’re traine
 ---
 * [AWS Serverless Tokenization](https://github.com/aws-samples/aws-serverless-tokenization) - Learn how to use Lambda Layers to develop a serverless tokenization solution in AWS.
 
+### Secure Multi-Party Computation
+* [Private Join and Compute](https://github.com/Google/private-join-and-compute) - Google's implementation of the "Private Join and Compute" functionality. This functionality allows two users, each holding an input file, to privately compute the sum of associated values for records that have common identifiers.
+
 ### Synthetic Data
 ---
 * [Data Synthesizer](https://github.com/DataResponsibly/DataSynthesizer) - DataSynthesizer generates synthetic data that simulates a given dataset.
@@ -188,7 +192,6 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [IBM's Differential Privacy Library](https://github.com/IBM/differential-privacy-library) - Diffprivlib is a general-purpose library for experimenting with, investigating and developing applications in, differential privacy.
 * [Microsoft's SmartNoise](https://opendifferentialprivacy.github.io) - This toolkit uses state-of-the-art differential privacy techniques to inject noise into data, to prevent disclosure of sensitive information and manage exposure risk. 
 * [NIST Differential Privacy Blog Series](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog) - This series is designed to help business process owners and privacy program personnel understand basic concepts about differential privacy and applicable use cases and to help privacy engineers and IT professionals implement the tools.
-* [Private Join and Compute](https://github.com/Google/private-join-and-compute) - Google's implementation of the "Private Join and Compute" functionality. This functionality allows two users, each holding an input file, to privately compute the sum of associated values for records that have common identifiers.
 * [FedJAX](https://github.com/google/fedjax) - Google's JAX-based open source library for federated learning simulations that emphasizes ease-of-use in research.
 * [diffpriv: Easy Differential Privacy](https://cran.r-project.org/package=diffpriv) - R package that is an implementation of major general-purpose mechanisms for privatizing statistics, models, and machine learners, within the framework of differential privacy of Dwork et al. (2006).
 * [sdcMicro: Statistical Disclosure Control Methods for Anonymization of Microdata and Risk Estimation](https://cran.r-project.org/package=sdcMicro) -  R package that can be used for the generation of anonymized (micro)data, i.e. for the creation of public- and scientific-use files. 
@@ -196,6 +199,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [PipelineDP](https://pipelinedp.io/) - Write fast, flexible pipelines that use modern techniques to aggregate user data in a privacy-preserving manner.
 * [Practical Differential Privacy w/ Apache Beam](https://dev.to/bamnet/practical-differential-privacy-w-apache-beam-4bki) - Blog post showing how to use Privacy on Beam from Google's differential privacy library.
 * [Computing Private Statistics with Privacy on Beam](https://codelabs.developers.google.com/codelabs/privacy-on-beam#0) - This Google Developer Codelab walks through the use of Privacy on Beam to perform differentially private analysis.
+* [FLUTE](https://github.com/microsoft/msrflute) - Created by Microsoft Research, Federated Learning Utilities and Tools for Experimentation (FLUTE) is a framework for running large-scale offline federated learning simulations.
 * TensorFlow
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
     * [TensorFlow Federated](https://www.tensorflow.org/federated) - TensorFlow Federated (TFF) is an open-source framework for machine learning and other computations on decentralized data.
@@ -214,7 +218,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [Data Permissions Catalogue](https://catalogue.projectsbyif.com) - Catalogue created by the data consultancy IF to help teams make decisions about how, when, and why to collect and use data about people.
 * [Privacy Patterns](https://privacypatterns.org/patterns/) - UC Berkeley collection of design patterns attempting to standardize language for privacy-preserving technologies, document common solutions to privacy problems, and help designers identify and address privacy concerns. 
 * [How to Protect Your Users with the Privacy by Design Framework](https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/) - Developers can help to defend their users’ personal privacy by adopting the Privacy by Design (PbD) framework.
-* [The UX Guide to Getting Consent](https://iapp.org/media/pdf/resource_center/UX_FINAL.pdf) - Short guide by the International Association of Privacy Professionals (IAPP) about obtaining consent under the EU's General Data Protection Regulation (GDPR).
+* [The UX Guide to Getting Consent](https://iapp.org/media/pdf/resource_center/UX_FINAL.pdf) - Short guide by the International Association of Privacy Professionals (IAPP) about obtaining consent under the EU's GDPR.
 * [Creepiness-Convenience Tradeoff](https://www.nngroup.com/articles/creepiness/) - As people consider whether to use the new "creepy" technologies, they do a type of cost-benefit analysis weighing the loss of privacy against the benefits they will receive in return.
 * [Building a Privacy Policy Users Actually Want to Read](https://www.artificiallawyer.com/2018/05/02/privacy-by-design-building-a-privacy-policy-people-actually-want-to-read/) - Creation of a user-friendly privacy notice through privacy journeying and using a layered notice approach.
 * [Contract Design Pattern Library](https://contract-design.iaccm.com/library) - Library of guidelines, explanations, and examples to inspire and support you in exploring user-friendly approaches to contract simplification and visualization.
@@ -252,7 +256,10 @@ ___
 
 ### Conferences
 ---
-* [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr20)
+* [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr22)
+    * [PEPR 2021 Conference](https://fpf.org/fpf-event/pepr-2021-conference-on-privacy-engineering-practice-and-respect-2/) | [Videos](https://www.youtube.com/watch?v=lenVTvDMWxM&list=PL_cjZ5iVWe7n0sU5g0o8zTZSMLAvfl4nL)
+    * [PEPR 2020 Conference](https://www.usenix.org/conference/pepr20/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lcie8IH64gqw6L9C7qXqu8x)
+    * [PEPR 2019 Conference](https://www.usenix.org/conference/pepr19/conference-program)
 * [USENIX Enigma Conference](https://www.usenix.org/enigma)
 
 ### Miscellaneous
@@ -262,6 +269,10 @@ ___
 * [Microphones and the Internet of Things (FPF Infographic)](https://fpf.org/wp-content/uploads/2017/08/Microphones-Infographic-Final.pdf)
 * [GDPR – A Practical Guide For Developers](https://techblog.bozho.net/gdpr-practical-guide-developers/)
 * [W3C Self-Review Questionnaire: Security and Privacy](https://www.w3.org/TR/security-privacy-questionnaire/)
+* [Privacy is an Afterthought in the Software Lifecycle. That Needs to Change](https://stackoverflow.blog/2021/07/19/privacy-is-an-afterthought-in-the-software-lifecycle-that-needs-to-change/)
+* [How Uber is Approaching Data Privacy Architecture](https://thecustomer.net/uber-data-privacy-architecture/)
+* [Microsoft - Code with Engineering Playbook: Privacy Fundamentals](https://microsoft.github.io/code-with-engineering-playbook/privacy/)
+* [Private AI - Privacy Enhancing Technologies (PETs) Decision Tree](https://www.private-ai.com/wp-content/uploads/2021/10/PETs-Decision-Tree.pdf)
 
 ### Other Awesome Privacy Curations
 ---
