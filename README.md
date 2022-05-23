@@ -163,6 +163,7 @@ The potential for models to leak details from the data on which they’re traine
 * [AWS Serverless Tokenization](https://github.com/aws-samples/aws-serverless-tokenization) - Learn how to use Lambda Layers to develop a serverless tokenization solution in AWS.
 
 ### Secure Multi-Party Computation
+---
 * [Private Join and Compute](https://github.com/Google/private-join-and-compute) - Google's implementation of the "Private Join and Compute" functionality. This functionality allows two users, each holding an input file, to privately compute the sum of associated values for records that have common identifiers.
 
 ### Synthetic Data
