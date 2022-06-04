@@ -149,7 +149,7 @@ The potential for models to leak details from the data on which they’re traine
     *  [l-diversity](https://desfontain.es/privacy/l-diversity.html)
     *  [delta-presence](https://desfontain.es/privacy/delta-presence.html)
 * [Technical Privacy Metrics: a Systematic Survey](https://arxiv.org/abs/1512.00327) - Paper by Isabel Wagner and David Eckhoff that discusses over 80 privacy metrics and introduces categorizations based on the aspect of privacy they measure, their required inputs, and the type of data that needs protection. They also present a method on how to choose privacy metrics based on nine questions that help identify the right privacy metrics for a given scenario.
-* [Data Anonymization Tool](https://www.pdpc.gov.sg/Help-and-Resources/2018/01/Basic-Anonymisation) - Singapore's Personal Data Protection Commission (PDPC) has launched a free Data Anonymization tool to help organizations transform simple datasets by applying basic anonymization techniques. 
+* [Data Anonymization Tool](https://www.pdpc.gov.sg/Help-and-Resources/2018/01/Basic-Anonymisation) - The Singapore PDPC has launched a free Data Anonymization tool to help organizations transform simple datasets by applying basic anonymization techniques. 
 
 ### Homomorphic Encryption
 ---
