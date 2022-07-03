@@ -116,6 +116,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Of Oaths and Checklists](https://www.oreilly.com/radar/of-oaths-and-checklists/) - A checklist for people who are working on data projects, authored by DJ Patil, Hilary Mason, and Mike Loukides.
 * [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) - A Kaggle Learn course to explore practical tools to guide the moral design of AI systems.
 * [Failure Modes in Machine Learning](https://docs.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning) - Documentation compiled by Microsoft regarding the different ways that machine learning can fail, both intentionally (through adversarial attack) and unintentionally (formally correct but completely unsafe outcome).
+* [Apple Privacy-Preserving Machine Learning Workshop 2022](https://machinelearning.apple.com/updates/ppml-workshop-2022) - In June 2022, Apple hosted the Workshop on Privacy-Preserving Machine Learning (PPML), which brought Apple and members of the academic research communities together to discuss the state of the art in the field of privacy-preserving machine learning through a series of talks and discussions. This post includes highlights from workshop discussions and recordings of select workshop talks.
 
 ### Facial Recognition
 ---
