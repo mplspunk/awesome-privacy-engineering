@@ -69,9 +69,9 @@
 * [Klaro!](https://github.com/kiprotect/klaro) - Klaro is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website.
 * [OpenDSR](https://github.com/opengdpr/OpenDSR) - A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
 * [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) - PrivacyBot is a simple automated service to initiate CCPA deletion requests with data brokers.
+* [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the European Union Cookie Law, CCPA, GDPR and other privacy laws.
 * [Fides](https://github.com/ethyca/fides) - An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
 * [Privado](https://github.com/Privado-Inc/privado) - Privado is an open source static code analysis tool to discover data flows in the code. It detects the personal data being processed, and further maps the journey of the data from the point of collection to going to interesting sinks such as third parties, databases, logs, and internal APIs.
-* [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the Eureopean Union Cookie Law, CCPA, GDPR and other privacy laws. 
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
