@@ -58,7 +58,7 @@
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
 * [Data Privacy: What Enterprises Need to Know? (Deepak Gupta)](https://www.amazon.com/Data-Privacy-What-Enterprises-Need-ebook/dp/B0B5XPD468)
 
-### Data Deletion and Data Subject Access Requests
+### Data Deletion, Data Mapping, and Data Subject Access Requests
 ---
 * [Deleting Data Distributed Throughout Your Microservices Architecture](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/deleting-data-distributed-throughout-your-microservices-architecture.html) - Microservices architectures tend to distribute responsibility for data throughout an organization. This poses challenges to ensuring that data is deleted.
 * [Handling Data Erasure Requests in Your Data Lake with Amazon S3 Find and Forget](https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/) - Amazon S3 Find and Forget enables you to find and delete records automatically in data lakes on Amazon S3. 
@@ -119,6 +119,11 @@ The potential for models to leak details from the data on which they’re traine
 * [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) - A Kaggle Learn course to explore practical tools to guide the moral design of AI systems.
 * [Failure Modes in Machine Learning](https://docs.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning) - Documentation compiled by Microsoft regarding the different ways that machine learning can fail, both intentionally (through adversarial attack) and unintentionally (formally correct but completely unsafe outcome).
 * [Apple Privacy-Preserving Machine Learning Workshop 2022](https://machinelearning.apple.com/updates/ppml-workshop-2022) - In June 2022, Apple hosted the Workshop on Privacy-Preserving Machine Learning (PPML), which brought Apple and members of the academic research communities together to discuss the state of the art in the field of privacy-preserving machine learning through a series of talks and discussions. This post includes highlights from workshop discussions and recordings of select workshop talks.
+* [Machine Unlearning](https://github.com/jjbrophy47/machine_unlearning) - A compilation of existing literature about machine unlearning, a process through which a machine learning model can be made to forget one of its training data points.
+* [Fairness and Machine Learning: Limitations and Opportunities](https://fairmlbook.org/) - An online textbook by Solon Barocas, Moritz Hardt, and Arvind Narayanan.
+* [AI Fairness 360 (AIF360)](https://github.com/Trusted-AI/AIF360) - A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and algorithms to mitigate bias in datasets and models.
+* [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Google's Model Card Toolkit streamlines and automates generation of [Model Cards](https://modelcards.withgoogle.com/about), machine learning documents that provide context and transparency into a model's development and performance.
+* [Responsible AI by Design](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6) - Microsoft's hub for policies, practices, and tools that make up its framework for Responsible AI by Design. Includes a Responsible AI Standard, Responsible AI Impact Assessment Guide, and Responsible AI Impact Assessment Template.
 
 ### Facial Recognition
 ---
