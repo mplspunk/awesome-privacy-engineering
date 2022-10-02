@@ -6,7 +6,7 @@
 ---
 * [Courses](#courses)
 * [Books](#books)
-* [Data Deletion and Data Subject Access Requests](#data-deletion-and-data-subject-access-requests)
+* [Data Deletion, Data Mapping, and Data Subject Access Requests](#data-deletion-data-mapping-and-data-subject-access-requests)
 * [Privacy Tech Series](#privacy-tech-series-by-lea-kissner)
 * [Privacy Threat Modeling](#privacy-threat-modeling)
 * [Machine Learning and Algorithmic Bias](#machine-learning-and-algorithmic-bias)
@@ -70,6 +70,7 @@
 * [OpenDSR](https://github.com/opengdpr/OpenDSR) - A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
 * [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) - PrivacyBot is a simple automated service to initiate CCPA deletion requests with data brokers.
 * [Fides](https://github.com/ethyca/fides) - An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
+* [Privado](https://github.com/Privado-Inc/privado) - Privado is an open source static code analysis tool to discover data flows in the code. It detects the personal data being processed, and further maps the journey of the data from the point of collection to going to interesting sinks such as third parties, databases, logs, and internal APIs.
 * [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the Eureopean Union Cookie Law, CCPA, GDPR and other privacy laws. 
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
@@ -122,8 +123,8 @@ The potential for models to leak details from the data on which they’re traine
 ### Facial Recognition
 ---
 * [Understanding Facial Detection, Characterization and Recognition Technologies (Future of Privacy Forum (FPF) Infographic)](https://fpf.org/wp-content/uploads/2018/09/FPF_FaceRecognitionPoster_R5.pdf)
-* [NIST Biometric Research Dataset](https://www.nist.gov/news-events/news/2019/12/nist-releases-data-help-measure-accuracy-biometric-identification) - Stripped of identifying information and created expressly for research purposes, the data is designed primarily for testing systems that verify a person’s identity before granting access.
 * [Fawkes](https://github.com/Shawn-Shan/fawkes) - Fawkes, privacy preserving tool against facial recognition systems, developed by researchers at SANDLab, University of Chicago.
+* [LowKey: Leveraging Adversarial Attacks to Protect Social Media Users from Facial Recognition](https://openreview.net/forum?id=hJmtwocEqzc) - Adversarial filter that accounts for the entire image processing pipeline and is demonstrably effective against industrial-grade pipelines that include face detection and large scale databases.  Also includes an [easy-to-use webtool](https://lowkey.umiacs.umd.edu/) that significantly degrades the accuracy of Amazon Rekognition and the Microsoft Azure Face Recognition API.
 
 ### De-Identification and Anonymization
 ---
@@ -143,6 +144,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Anonymizer MySQL](https://www.npmjs.com/package/anonymizer-mysql) - This simple tool will allow you to make anonymizerd clone of your database.
 * [MySQL Data Anonymizer](https://github.com/globalis-ms/mysql-data-anonymizer) - MySQL Data Anonymizer is a PHP library that anonymizes your data in the database.
 * [Anonymizer](https://github.com/DivanteLtd/anonymizer) - Anonymizer is a universal tool to create anonymized DBs for projects.
+* [anonymize-it](https://github.com/elastic/anonymize-it) - The Elastic Machine Learning Team's general purpose tool for suppression, masking, and generalization of fields to aid data pseudonymization. It is composed of three parts: readers, anonymizers, and writers.
 * [Singapore Guide to Anonymization](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Advisory-Guidelines/Guide-to-Basic-Anonymisation-31-March-2022.ashx) - The Singapore Personal Data Protection Commission (PDPC) has published the Guide on Basic Anonymization to provide more practical guidance for businesses on how to appropriately perform basic anonymization and de-identification of various datasets.
 * [Transforming Data in Google Cloud Platform](https://cloud.google.com/dlp/docs/transformations-reference) - This reference covers the available de-identification techniques, or transformations, that can be applied in Google Cloud's Data Loss Prevention (i.e., redaction, replacement, masking, crypto-based tokenization, bucketing, date shifting, and time extraction).
 * Measuring Re-Identification Risk / Privacy Definitions - A series of helpful blog posts by Damien Desfontaines on privacy definitions that attempt to quantify the level of risk associated with a dataset.
@@ -160,6 +162,8 @@ The potential for models to leak details from the data on which they’re traine
 * [nGraph-HE: A Graph Compiler for Deep Learning on Homomorphically Encrypted Data](https://arxiv.org/abs/1810.10121) - Intel Research proposes an extension to its deep learning compiler to operate on homomorphically encrypted data.
 * [Google Fully-Homomorphic-Encryption](https://github.com/google/fully-homomorphic-encryption) - This repository created by Google contains open-source libraries and tools to perform fully homomorphic encryption operations on an encrypted data set.
 * [Palisade Homomorphic Encryption Software Library](https://palisade-crypto.org/) - An open-source project that provides efficient implementations of lattice cryptography building blocks and homomorphic encryption schemes.
+* [TFHE](https://github.com/tfhe/tfhe) - The original version of TFHE (Fast Fully Homomorphic Encryption Library over the Torus) that implements the base arithmetic and functionalities (bootstrapped and leveled), allowing you to perform computations over encrypted data.
+* [Concrete](https://github.com/zama-ai/concrete) - The concrete ecosystem is a set of crates (packages in the Rust language) that implements Zama's variant of TFHE, while most of the complexity of fully homomorphic encryption is hidden under high-level APIs.
 
 ### Tokenization
 ---
@@ -196,6 +200,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [IBM's Differential Privacy Library](https://github.com/IBM/differential-privacy-library) - Diffprivlib is a general-purpose library for experimenting with, investigating and developing applications in, differential privacy.
 * [Microsoft's SmartNoise](https://opendifferentialprivacy.github.io) - This toolkit uses state-of-the-art differential privacy techniques to inject noise into data, to prevent disclosure of sensitive information and manage exposure risk. 
 * [NIST Differential Privacy Blog Series](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog) - This series is designed to help business process owners and privacy program personnel understand basic concepts about differential privacy and applicable use cases and to help privacy engineers and IT professionals implement the tools.
+* [RAPPOR](https://github.com/google/rappor) - Randomized Aggregatable Privacy-Preserving Ordinal Response (RAPPOR) is a technology for crowdsourcing statistics from end-user client software, anonymously, with strong privacy guarantees.
 * [FedML](https://fedml.ai) - FedML - The federated learning and distributed training library enabling machine learning anywhere at any scale. It's backed by [FedML, Inc](https://FedML.ai). Supporting large-scale geo-distributed training, cross-device federated learning on smartphones/IoTs, cross-silo federated learning on data silos, and research simulation. Best Paper Award at NeurIPS 2020.
 * [FedJAX](https://github.com/google/fedjax) - Google's JAX-based open source library for federated learning simulations that emphasizes ease-of-use in research.
 * [diffpriv: Easy Differential Privacy](https://cran.r-project.org/package=diffpriv) - R package that is an implementation of major general-purpose mechanisms for privatizing statistics, models, and machine learners, within the framework of differential privacy of Dwork et al. (2006).
@@ -254,6 +259,7 @@ ___
 * [US State Privacy Legislation Tracker](https://iapp.org/resources/article/us-state-privacy-legislation-tracker/) - The IAPP Westin Research Center actively tracks the proposed and enacted comprehensive privacy bills from across the United States.
 * [Privacy in M&A transactions: The Playbook](https://iapp.org/resources/article/privacy-in-ma-transactions-playbook/) - The playbook is directed to mergers and acquisitions (M&A) and privacy teams to help identify potential privacy-related issues.
 * [European Data Protection Supervisor Website Evidence Collector](https://github.com/EU-EDPS/website-evidence-collector) - The Website Evidence Collector tool automates the collection of evidence of personal data processing, such as cookies, or requests to third parties.
+* [webXray](https://webxray.org/) - webXray is a command line tool for analyzing webpage traffic and content, extracting legal policies, and identifying the companies which collect user data.
 * [GDPR Developer Guide](https://github.com/LINCnil/GDPR-Developer-Guide) - In order to assist web and application developers in making their work GDPR-compliant, France's Data Protection Agency, the CNIL, has drawn up a guide of best practices.
 * [Data Protection/Privacy Mapping Project](https://github.com/microsoft/data-protection-mapping-project) - Microsoft's Data Protection/Privacy Mapping Project facilitates consistent global comprehension and implementation of data protection with an open source mapping between ISO/IEC 27701 and global data protection and/or privacy laws and regulations.
 * [European Data Protection Board Guidelines 4/2019 on Article 25, Data Protection by Design and by Default](https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) - This document gives general guidance on the obligation of Data Protection by Design and by Default set forth in Article 25 in the GDPR.
@@ -284,6 +290,8 @@ ___
 * [awesome-data-privacy](https://github.com/yilmaztolga/awesome-data-privacy)
 * [awesome-federated-computing](https://github.com/tushar-semwal/awesome-federated-computing)
 * [awesome-gdpr](https://github.com/bakke92/awesome-gdpr)
+* [awesome-artificial-intelligence-guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
+* [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks/)
 
 ### Related GitHub Topics
 ___
