@@ -56,7 +56,6 @@
 * [The Architecture of Privacy: On Engineering Technologies that Can Deliver Trustworthy Safeguards (Courtney Bowman, Ari Gesher, John K. Grant, Daniel Slate, Elissa Lerner)](https://www.amazon.com/Architecture-Privacy-Engineering-Technologies-Trustworthy-ebook/dp/B014LPOXU2)
 * [Data Privacy: A Runbook for Engineers (Nishant Bhajaria)](https://www.manning.com/books/data-privacy)
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
-* [Data Privacy: What Enterprises Need to Know? (Deepak Gupta)](https://www.amazon.com/Data-Privacy-What-Enterprises-Need-ebook/dp/B0B5XPD468)
 
 ### Data Deletion, Data Mapping, and Data Subject Access Requests
 ---
