@@ -70,6 +70,8 @@
 * [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) - PrivacyBot is a simple automated service to initiate CCPA deletion requests with data brokers.
 * [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the European Union Cookie Law, CCPA, GDPR and other privacy laws.
 * [Fides](https://github.com/ethyca/fides) - An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
+    * [Fideslang](https://github.com/ethyca/fideslang) - Open-source description language for privacy to declare data types and data behaviors in your tech stack in order to simplify data privacy globally. Supports GDPR, CCPA, LGPD and ISO 19944.
+    * [Fidesops](https://github.com/ethyca/fidesops) - DSAR Orchestration: Privacy Request automation to fulfill GDPR, CCPA, and LGPD data subject requests.
 * [Privado](https://github.com/Privado-Inc/privado) - Privado is an open source static code analysis tool to discover data flows in the code. It detects the personal data being processed, and further maps the journey of the data from the point of collection to going to interesting sinks such as third parties, databases, logs, and internal APIs.
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
@@ -89,6 +91,7 @@
 ---
 * [LINDDUN](https://www.linddun.org/linddun) - The LINDDUN privacy engineering framework provides systematic support for the elicitation and mitigation of privacy threats in software systems.
 * [LINDDUN GO](https://www.linddun.org/go) - LINDDUN GO is designed to give you a quick start to privacy threat modeling.
+* [Plot4AI](https://plot4.ai/) - A threat modeling library to help practitioners build responsible AI.
 
 ### Machine Learning and Algorithmic Bias
 ---
