@@ -18,7 +18,7 @@
 * [Synthetic Data](#synthetic-data)
 * [Differential Privacy and Federated Learning](#differential-privacy-and-federated-learning)
 * [Designing for Trust with Users](#designing-for-trust-with-users)
-* [Dark Patterns in Digital Services](#dark-patterns-in-digital-services)
+* [Deceptive Design Patterns in Digital Services](#deceptive-design-patterns-in-digital-services)
 * [Tagging Personally Identifiable Information](#tagging-personally-identifiable-information)
 * [Regulatory Resources](#regulatory-resources)
 * [Conferences](#conferences)
@@ -246,9 +246,9 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
     * [Part 4: Privacy-Aware Design Framework](https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/)
 * [Lean Privacy Review](http://www.leanprivacyreview.com/#) - Carnegie Mellon University researchers developed a fast, easy method to catch privacy issues early in a system’s development process by gathering feedback from users.
 
-### Dark Patterns in Digital Services
+### Deceptive Design Patterns in Digital Services
 ---
-* [Dark Patterns](https://www.darkpatterns.org) - Dark patterns are tricks used in websites and apps that make you do things that you didn't mean to do.
+* [Deceptive Design Patterns](https://www.deceptive.design/) - Deceptive design patterns (also known as "dark patterns") are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something.
 * [The Dark Side of UX Design](https://darkpatterns.uxp2.com) - Practitioner-identified examples of stakeholder values superseding user values.
 
 ### Tagging Personally Identifiable Information
