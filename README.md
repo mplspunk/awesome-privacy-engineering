@@ -193,6 +193,7 @@ The potential for models to leak details from the data on which they’re traine
 https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/data_generator) - This data generator takes a text file with templates (e.g. my name is x]) and creates a list of InputSamples which contain fake PII entities instead of placeholders.
 * [Mimesis](https://github.com/lk-geimfari/mimesis) - Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages. 
 * [plaitpy](https://github.com/plaitpy/plaitpy) - plait.py is a program for generating fake data from composable yaml templates.
+* [Bogus](https://github.com/bchavez/Bogus) - Bogus is a simple fake data generator for .NET languages like C#, F# and VB.NET.
 
 ### Differential Privacy and Federated Learning
 ---
@@ -299,6 +300,7 @@ ___
 * [awesome-gdpr](https://github.com/bakke92/awesome-gdpr)
 * [awesome-artificial-intelligence-guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
 * [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks/)
+* [awesome-privacy-on-blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
 
 ### Related GitHub Topics
 ___
