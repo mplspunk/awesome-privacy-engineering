@@ -302,7 +302,6 @@ ___
 * [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks/)
 * [awesome-privacy-on-blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
 
-
 ### Related GitHub Topics
 ___
 * [GDPR](https://github.com/topics/gdpr)
