@@ -299,6 +299,8 @@ ___
 * [awesome-gdpr](https://github.com/bakke92/awesome-gdpr)
 * [awesome-artificial-intelligence-guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
 * [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks/)
+* [awesome-privacy-on-blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
+
 
 ### Related GitHub Topics
 ___
