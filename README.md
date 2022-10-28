@@ -56,6 +56,7 @@
 * [The Architecture of Privacy: On Engineering Technologies that Can Deliver Trustworthy Safeguards (Courtney Bowman, Ari Gesher, John K. Grant, Daniel Slate, Elissa Lerner)](https://www.amazon.com/Architecture-Privacy-Engineering-Technologies-Trustworthy-ebook/dp/B014LPOXU2)
 * [Data Privacy: A Runbook for Engineers (Nishant Bhajaria)](https://www.manning.com/books/data-privacy)
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
+* [Privacy Engineering: A Dataflow and Ontological Approach (Ian Oliver)](https://www.amazon.com/Privacy-Engineering-Dataflow-Ontological-Approach/dp/1497569710)
 
 ### Data Deletion, Data Mapping, and Data Subject Access Requests
 ---
@@ -91,7 +92,7 @@
 ---
 * [LINDDUN](https://www.linddun.org/linddun) - The LINDDUN privacy engineering framework provides systematic support for the elicitation and mitigation of privacy threats in software systems.
 * [LINDDUN GO](https://www.linddun.org/go) - LINDDUN GO is designed to give you a quick start to privacy threat modeling.
-* [Plot4AI](https://plot4.ai/) - A threat modeling library to help practitioners build responsible AI.
+* [PLOT4AI](https://plot4.ai/) - Privacy Library Of Threats 4 Artificial Intelligence (PLOT4AI) is a threat modeling library to help practitioners build responsible artificial intelligence.
 
 ### Machine Learning and Algorithmic Bias
 ---
@@ -126,6 +127,7 @@ The potential for models to leak details from the data on which they’re traine
 * [AI Fairness 360 (AIF360)](https://github.com/Trusted-AI/AIF360) - A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and algorithms to mitigate bias in datasets and models.
 * [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Google's Model Card Toolkit streamlines and automates generation of [Model Cards](https://modelcards.withgoogle.com/about), machine learning documents that provide context and transparency into a model's development and performance.
 * [Responsible AI by Design](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6) - Microsoft's hub for policies, practices, and tools that make up its framework for Responsible AI by Design. Includes a Responsible AI Standard, Responsible AI Impact Assessment Guide, and Responsible AI Impact Assessment Template.
+* [Private AI Bootcamp](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn) - Youtube playlist of lectures from the Private AI Bootcamp at Microsoft Research Redmond in December 2019.
 
 ### Facial Recognition
 ---
@@ -165,12 +167,14 @@ The potential for models to leak details from the data on which they’re traine
 ### Homomorphic Encryption
 ---
 * [Building Safe A.I.: A Tutorial for Encrypted Deep Learning](https://iamtrask.github.io/2017/03/17/safe-ai/) - Blogpost on how to train a neural network that is fully encrypted during training.
+* [HElib](https://github.com/homenc/HElib) - HElib is an open-source software library that implements homomorphic encryption.
 * [Microsoft SEAL](https://github.com/microsoft/SEAL) - Microsoft SEAL is an easy-to-use open-source (MIT licensed) homomorphic encryption library developed by the Cryptography and Privacy Research group at Microsoft.
 * [nGraph-HE: A Graph Compiler for Deep Learning on Homomorphically Encrypted Data](https://arxiv.org/abs/1810.10121) - Intel Research proposes an extension to its deep learning compiler to operate on homomorphically encrypted data.
 * [Google Fully-Homomorphic-Encryption](https://github.com/google/fully-homomorphic-encryption) - This repository created by Google contains open-source libraries and tools to perform fully homomorphic encryption operations on an encrypted data set.
 * [Palisade Homomorphic Encryption Software Library](https://palisade-crypto.org/) - An open-source project that provides efficient implementations of lattice cryptography building blocks and homomorphic encryption schemes.
 * [TFHE](https://github.com/tfhe/tfhe) - The original version of TFHE (Fast Fully Homomorphic Encryption Library over the Torus) that implements the base arithmetic and functionalities (bootstrapped and leveled), allowing you to perform computations over encrypted data.
 * [Concrete](https://github.com/zama-ai/concrete) - The concrete ecosystem is a set of crates (packages in the Rust language) that implements Zama's variant of TFHE, while most of the complexity of fully homomorphic encryption is hidden under high-level APIs.
+* [FHE.org](https://fhe.org/) - Community of researchers and developers interested in advancing Fully Homomorphic Encryption (FHE) and other secure computation techniques.
 
 ### Tokenization
 ---
@@ -215,8 +219,9 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [sdcMicro: Statistical Disclosure Control Methods for Anonymization of Microdata and Risk Estimation](https://cran.r-project.org/package=sdcMicro) -  R package that can be used for the generation of anonymized (micro)data, i.e. for the creation of public- and scientific-use files. 
 * [PPRL: Privacy Preserving Record Linkage](https://rdrr.io/cran/PPRL/) - R package that is a toolbox for deterministic, probabilistic and privacy-preserving record linkage techniques.
 * [PipelineDP](https://pipelinedp.io/) - Write fast, flexible pipelines that use modern techniques to aggregate user data in a privacy-preserving manner.
+* [Compute Private Statistics with PipelineDP](https://codelabs.developers.google.com/codelabs/compute-private-statistics-with-pipelinedp#0) - This Google Developer Codelab walks through how to produce private statistics with differentially private aggregations using the PipelineDP Python framework.
 * [Practical Differential Privacy w/ Apache Beam](https://dev.to/bamnet/practical-differential-privacy-w-apache-beam-4bki) - Blog post showing how to use Privacy on Beam from Google's differential privacy library.
-* [Computing Private Statistics with Privacy on Beam](https://codelabs.developers.google.com/codelabs/privacy-on-beam#0) - This Google Developer Codelab walks through the use of Privacy on Beam to perform differentially private analysis.
+* [Computing Private Statistics with Privacy on Beam](https://codelabs.developers.google.com/codelabs/privacy-on-beam#0) - This Google Developer Codelab walks through the use of Privacy on Beam to perform differentially private analysis in Go.
 * [FLUTE](https://github.com/microsoft/msrflute) - Created by Microsoft Research, Federated Learning Utilities and Tools for Experimentation (FLUTE) is a framework for running large-scale offline federated learning simulations.
 * TensorFlow
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
@@ -278,7 +283,7 @@ ___
 * [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr22)
     * [PEPR 2021 Conference](https://fpf.org/fpf-event/pepr-2021-conference-on-privacy-engineering-practice-and-respect-2/) | [Videos](https://www.youtube.com/watch?v=lenVTvDMWxM&list=PL_cjZ5iVWe7n0sU5g0o8zTZSMLAvfl4nL)
     * [PEPR 2020 Conference](https://www.usenix.org/conference/pepr20/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lcie8IH64gqw6L9C7qXqu8x)
-    * [PEPR 2019 Conference](https://www.usenix.org/conference/pepr19/conference-program)
+    * [PEPR 2019 Conference](https://www.usenix.org/conference/pepr19/conference-program) (slides only)
 * [USENIX Enigma Conference](https://www.usenix.org/enigma)
 
 ### Miscellaneous
