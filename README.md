@@ -56,6 +56,7 @@
 * [The Architecture of Privacy: On Engineering Technologies that Can Deliver Trustworthy Safeguards (Courtney Bowman, Ari Gesher, John K. Grant, Daniel Slate, Elissa Lerner)](https://www.amazon.com/Architecture-Privacy-Engineering-Technologies-Trustworthy-ebook/dp/B014LPOXU2)
 * [Data Privacy: A Runbook for Engineers (Nishant Bhajaria)](https://www.manning.com/books/data-privacy)
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
+* [Privacy Is Hard and Seven Other Myths: Achieving Privacy through Careful Design (Jaap-Henk Hoepman)](https://www.amazon.com/Privacy-Hard-Seven-Other-Myths/dp/0262045826/)
 * [Privacy Engineering: A Dataflow and Ontological Approach (Ian Oliver)](https://www.amazon.com/Privacy-Engineering-Dataflow-Ontological-Approach/dp/1497569710)
 
 ### Data Deletion, Data Mapping, and Data Subject Access Requests
@@ -128,6 +129,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Google's Model Card Toolkit streamlines and automates generation of [Model Cards](https://modelcards.withgoogle.com/about), machine learning documents that provide context and transparency into a model's development and performance.
 * [Responsible AI by Design](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6) - Microsoft's hub for policies, practices, and tools that make up its framework for Responsible AI by Design. Includes a Responsible AI Standard, Responsible AI Impact Assessment Guide, and Responsible AI Impact Assessment Template.
 * [Private AI Bootcamp](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn) - Youtube playlist of lectures from the Private AI Bootcamp at Microsoft Research Redmond in December 2019.
+* [Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox) - Python library that enables developers and researchers to defend and evaluate machine learning models and applications against the adversarial threats of evasion, poisoning, extraction, and inference. 
 
 ### Facial Recognition
 ---
@@ -204,11 +206,12 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [A Friendly, Non-Technical Introduction to Differential Privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) - Blog post that provides simple explanations for the core concepts behind differential privacy.
 * [Differential Privacy at the U.S. Census Bureau](https://youtu.be/pT19VwBAqKA) - Video on how differential privacy is being implemented in the U.S. Census.
 * [Privacy-Preserving AI](https://www.youtube.com/watch?v=4zrU54VIK6k) - Video on Privacy Preserving AI (Andrew Trask) | MIT Deep Learning Series
-* [Pysyft](https://github.com/OpenMined/PySyft) - PySyft is a Python library for secure and private Deep Learning.
+* [PySyft](https://github.com/OpenMined/PySyft) - PySyft is a Python library for secure and private Deep Learning.
 * [CrypTen](https://github.com/facebookresearch/CrypTen) - CrypTen is a framework for Privacy Preserving Machine Learning built on PyTorch.
 * [Opacus](https://github.com/pytorch/opacus) - A library that enables training PyTorch models with differential privacy.
 * [Uber SQL Differential Privacy](https://github.com/uber/sql-differential-privacy) - This repository contains a query analysis and rewriting framework to enforce differential privacy for general-purpose SQL queries. (deprecated)
 * [Google Differential Privacy Library](https://github.com/google/differential-privacy) - This repository contains libraries to generate ε- and (ε, δ)-differentially private statistics over datasets.
+* [PyDP](https://github.com/OpenMined/PyDP) - Python wrapper for Google's Differential Privacy project. The library provides a set of ε-differentially private algorithms, which can be used to produce aggregate statistics over numeric data sets containing private or sensitive information.
 * [IBM's Differential Privacy Library](https://github.com/IBM/differential-privacy-library) - Diffprivlib is a general-purpose library for experimenting with, investigating and developing applications in, differential privacy.
 * [Microsoft's SmartNoise](https://opendifferentialprivacy.github.io) - This toolkit uses state-of-the-art differential privacy techniques to inject noise into data, to prevent disclosure of sensitive information and manage exposure risk. 
 * [NIST Differential Privacy Blog Series](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog) - This series is designed to help business process owners and privacy program personnel understand basic concepts about differential privacy and applicable use cases and to help privacy engineers and IT professionals implement the tools.
