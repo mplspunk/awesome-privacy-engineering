@@ -129,7 +129,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Google's Model Card Toolkit streamlines and automates generation of [Model Cards](https://modelcards.withgoogle.com/about), machine learning documents that provide context and transparency into a model's development and performance.
 * [Responsible AI by Design](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6) - Microsoft's hub for policies, practices, and tools that make up its framework for Responsible AI by Design. Includes a Responsible AI Standard, Responsible AI Impact Assessment Guide, and Responsible AI Impact Assessment Template.
 * [Private AI Bootcamp](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn) - Youtube playlist of lectures from the Private AI Bootcamp at Microsoft Research Redmond in December 2019.
-* [Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox) - Python library that enables developers and researchers to defend and evaluate machine learning models and applications against the adversarial threats of evasion, poisoning, extraction, and inference. 
+* [Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox) - Python library from the Linux Foundation AI & Data Foundation (LF AI & Data) that enables developers and researchers to defend and evaluate machine learning models and applications against the adversarial threats of evasion, poisoning, extraction, and inference. 
 
 ### Facial Recognition
 ---
