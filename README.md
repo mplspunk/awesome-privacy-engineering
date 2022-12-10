@@ -94,6 +94,8 @@
 * [LINDDUN](https://www.linddun.org/linddun) - The LINDDUN privacy engineering framework provides systematic support for the elicitation and mitigation of privacy threats in software systems.
 * [LINDDUN GO](https://www.linddun.org/go) - LINDDUN GO is designed to give you a quick start to privacy threat modeling.
 * [PLOT4AI](https://plot4.ai/) - Privacy Library Of Threats 4 Artificial Intelligence (PLOT4AI) is a threat modeling library to help practitioners build responsible artificial intelligence.
+* [Draw.io Libraries for Threat Modeling](https://github.com/michenriksen/drawio-threatmodeling) - Collection of custom libraries for using the Draw.io diagramming application for threat modeling.
+* [Models of Applied Privacy (MAP)](https://github.com/comcast/map) - A privacy threat modeling persona framework that developers can use to test and document privacy threats, and find edge cases of privacy harm.
 
 ### Machine Learning and Algorithmic Bias
 ---
@@ -225,6 +227,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [Compute Private Statistics with PipelineDP](https://codelabs.developers.google.com/codelabs/compute-private-statistics-with-pipelinedp#0) - This Google Developer Codelab walks through how to produce private statistics with differentially private aggregations using the PipelineDP Python framework.
 * [Practical Differential Privacy w/ Apache Beam](https://dev.to/bamnet/practical-differential-privacy-w-apache-beam-4bki) - Blog post showing how to use Privacy on Beam from Google's differential privacy library.
 * [Computing Private Statistics with Privacy on Beam](https://codelabs.developers.google.com/codelabs/privacy-on-beam#0) - This Google Developer Codelab walks through the use of Privacy on Beam to perform differentially private analysis in Go.
+* [Tumult Analytics](https://www.tmlt.dev/) - Tumult Analytics is a Python library for computing aggregate queries on tabular data using differential privacy.
 * [FLUTE](https://github.com/microsoft/msrflute) - Created by Microsoft Research, Federated Learning Utilities and Tools for Experimentation (FLUTE) is a framework for running large-scale offline federated learning simulations.
 * TensorFlow
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
@@ -269,7 +272,7 @@ ___
 * [Using Policy Tags in Google Cloud's BigQuery](https://cloud.google.com/bigquery/docs/best-practices-policy-tags) - Use policy tags to define access to your data, for example, when you use BigQuery column-level security.
 * [Adding a Tag-Based PII Policy in Cloudera](https://docs.cloudera.com/runtime/7.0.2/security-ranger-authorization/topics/security-ranger-tag-policy-add-pii.html) - How to add a PII tag-based policy. In this example, the author creates a tag-based policy for objects tagged "PII" in Atlas. 
 
-### Regulatory Resources
+### Regulatory and Framework Resources
 ---
 * [Global Comprehensive Privacy Law Mapping Chart](https://iapp.org/resources/article/global-comprehensive-privacy-law-mapping-chart/) - The IAPP's Westin Research Center has created this chart mapping several comprehensive data protection laws.
 * [US State Privacy Legislation Tracker](https://iapp.org/resources/article/us-state-privacy-legislation-tracker/) - The IAPP Westin Research Center actively tracks the proposed and enacted comprehensive privacy bills from across the United States.
@@ -280,6 +283,7 @@ ___
 * [Data Protection/Privacy Mapping Project](https://github.com/microsoft/data-protection-mapping-project) - Microsoft's Data Protection/Privacy Mapping Project facilitates consistent global comprehension and implementation of data protection with an open source mapping between ISO/IEC 27701 and global data protection and/or privacy laws and regulations.
 * [European Data Protection Board Guidelines 4/2019 on Article 25, Data Protection by Design and by Default](https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) - This document gives general guidance on the obligation of Data Protection by Design and by Default set forth in Article 25 in the GDPR.
 * [A Guide to Privacy by Design](https://www.aepd.es/sites/default/files/2019-12/guia-privacidad-desde-diseno_en.pdf) - This document by Spain's Data Protection Agency, AEPD, provides guidance on implementation of Privacy by Design into systems and applications.
+* [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NISTIR 8062)](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
 
 ### Conferences
 ---
@@ -309,6 +313,8 @@ ___
 * [awesome-artificial-intelligence-guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines)
 * [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks/)
 * [awesome-privacy-on-blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
+* [awesome-zero-knowledge-proofs](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
+* [awesome-privacy-papers](https://github.com/brighter-ai/awesome-privacy-papers)
 
 ### Related GitHub Topics
 ___
