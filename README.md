@@ -75,7 +75,8 @@
     * [Fideslang](https://github.com/ethyca/fideslang) - Open-source description language for privacy to declare data types and data behaviors in your tech stack in order to simplify data privacy globally. Supports GDPR, CCPA, LGPD and ISO 19944.
     * [Fidesops](https://github.com/ethyca/fidesops) - DSAR Orchestration: Privacy Request automation to fulfill GDPR, CCPA, and LGPD data subject requests.
 * [Privado](https://github.com/Privado-Inc/privado) - Privado is an open source static code analysis tool to discover data flows in the code. It detects the personal data being processed, and further maps the journey of the data from the point of collection to going to interesting sinks such as third parties, databases, logs, and internal APIs.
-* [Octopii](https://github.com/redhuntlabs/Octopii) - Octopii is an open-source AI-powered Personal Identifiable Information (PII) scanner that can look for image assets such as Government IDs, passports, photos and signatures in a directory.
+* [Detecting PII Using Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/get-started-api-pii.html) - To detect entities that contain personally identifiable information (PII) in a document, use the Amazon Comprehend DetectPiiEntities operation. 
+* [Octopii](https://github.com/redhuntlabs/Octopii) - Octopii is an open-source AI-powered PII scanner that can look for image assets such as Government IDs, passports, photos and signatures in a directory.
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
@@ -272,7 +273,6 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 ___
 * [Managing Tags in AWS Resource Groups](https://docs.aws.amazon.com/ARG/latest/userguide/tagging-resources.html) - Tags are words or phrases that act as metadata that you can use to identify and organize your AWS resources. A resource can have up to 50 user-applied tags.
 * [Categorizing Your AWS S3 Storage Using Tags](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html) - In addition to data classification, tagging offers benefits such as fine-grained access control of permissions and object lifecycle management.
-* [Detecting PII Using Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/get-started-api-pii.html) - To detect entities that contain personally identifiable information (PII) in a document, use the Amazon Comprehend DetectPiiEntities operation. 
 * [Quickstart for Tagging Tables in Google Cloud](https://cloud.google.com/data-catalog/docs/quickstart-tagging) - Tutorial shows how to create a BigQuery dataset, copy data to a new table in your dataset, create a tag template, and attach the tag to your table.
 * [Using Policy Tags in Google Cloud's BigQuery](https://cloud.google.com/bigquery/docs/best-practices-policy-tags) - Use policy tags to define access to your data, for example, when you use BigQuery column-level security.
 * [Adding a Tag-Based PII Policy in Cloudera](https://docs.cloudera.com/runtime/7.0.2/security-ranger-authorization/topics/security-ranger-tag-policy-add-pii.html) - How to add a PII tag-based policy. In this example, the author creates a tag-based policy for objects tagged "PII" in Atlas. 
