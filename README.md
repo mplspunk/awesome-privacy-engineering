@@ -75,6 +75,7 @@
     * [Fideslang](https://github.com/ethyca/fideslang) - Open-source description language for privacy to declare data types and data behaviors in your tech stack in order to simplify data privacy globally. Supports GDPR, CCPA, LGPD and ISO 19944.
     * [Fidesops](https://github.com/ethyca/fidesops) - DSAR Orchestration: Privacy Request automation to fulfill GDPR, CCPA, and LGPD data subject requests.
 * [Privado](https://github.com/Privado-Inc/privado) - Privado is an open source static code analysis tool to discover data flows in the code. It detects the personal data being processed, and further maps the journey of the data from the point of collection to going to interesting sinks such as third parties, databases, logs, and internal APIs.
+* [Octopii](https://github.com/redhuntlabs/Octopii) - Octopii is an open-source AI-powered Personal Identifiable Information (PII) scanner that can look for image assets such as Government IDs, passports, photos and signatures in a directory.
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
@@ -132,12 +133,14 @@ The potential for models to leak details from the data on which they’re traine
 * [Responsible AI by Design](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6) - Microsoft's hub for policies, practices, and tools that make up its framework for Responsible AI by Design. Includes a Responsible AI Standard, Responsible AI Impact Assessment Guide, and Responsible AI Impact Assessment Template.
 * [Private AI Bootcamp](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn) - Youtube playlist of lectures from the Private AI Bootcamp at Microsoft Research Redmond in December 2019.
 * [Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox) - Python library from the Linux Foundation AI & Data Foundation (LF AI & Data) that enables developers and researchers to defend and evaluate machine learning models and applications against the adversarial threats of evasion, poisoning, extraction, and inference. 
+* [Trustworthy ML Initiative](https://www.trustworthyml.org/home) - The Trustworthy ML Initiative is a community of researchers and practitioners working on topics related to machine learning models and algorithms that are accurate, explainable, fair, privacy-preserving, causal, and robust. 
 
 ### Facial Recognition
 ---
 * [Understanding Facial Detection, Characterization and Recognition Technologies (Future of Privacy Forum (FPF) Infographic)](https://fpf.org/wp-content/uploads/2018/09/FPF_FaceRecognitionPoster_R5.pdf)
 * [Fawkes](https://github.com/Shawn-Shan/fawkes) - Fawkes, privacy preserving tool against facial recognition systems, developed by researchers at SANDLab, University of Chicago.
 * [LowKey: Leveraging Adversarial Attacks to Protect Social Media Users from Facial Recognition](https://openreview.net/forum?id=hJmtwocEqzc) - Adversarial filter that accounts for the entire image processing pipeline and is demonstrably effective against industrial-grade pipelines that include face detection and large scale databases.  Also includes an [easy-to-use webtool](https://lowkey.umiacs.umd.edu/) that significantly degrades the accuracy of Amazon Rekognition and the Microsoft Azure Face Recognition API.
+* [Magritte](https://github.com/google/magritte) - Google's Magritte is a MediaPipe-based library to redact faces from photos and videos. It provides processing graphs to reliably detect faces, track their movements in videos, and disguise the person's identity by obfuscating their face.
 
 ### De-Identification and Anonymization
 ---
@@ -187,6 +190,8 @@ The potential for models to leak details from the data on which they’re traine
 ### Secure Multi-Party Computation
 ---
 * [Private Join and Compute](https://github.com/Google/private-join-and-compute) - Google's implementation of the "Private Join and Compute" functionality. This functionality allows two users, each holding an input file, to privately compute the sum of associated values for records that have common identifiers.
+* [Facebook Private Computation Solutions](https://github.com/facebookresearch/FBPCS) - FBPCS (Facebook Private Computation Solutions) is a secure, privacy safe and scalable architecture to deploy multi-party computation applications in a distributed way on virtual private clouds via Private Scaling architecture. FBPCS consists of various services, interfaces that enable various private measurement solutions, e.g. Private Lift.
+* [Facebook Private Computation Framework](https://github.com/facebookresearch/fbpcf) - Facebook Private Computation Framework (FBPCF) library allows developers to perform randomized controlled trials, without leaking information about who participated or what action an individual took. It uses secure multiparty computation to guarantee this privacy. FBPCF is for scaling multi-party computation up via threading.
 
 ### Synthetic Data
 ---
