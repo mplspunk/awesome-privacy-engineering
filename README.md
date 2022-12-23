@@ -18,7 +18,7 @@
 * [Synthetic Data](#synthetic-data)
 * [Differential Privacy and Federated Learning](#differential-privacy-and-federated-learning)
 * [Designing for Trust with Users](#designing-for-trust-with-users)
-* [Deceptive Design Patterns in Digital Services](#deceptive-design-patterns-in-digital-services)
+* [Deceptive Design Patterns](#deceptive-design-patterns)
 * [Tagging Personally Identifiable Information](#tagging-personally-identifiable-information)
 * [Regulatory Resources](#regulatory-resources)
 * [Conferences](#conferences)
@@ -191,7 +191,7 @@ The potential for models to leak details from the data on which they’re traine
 ### Secure Multi-Party Computation
 ---
 * [Private Join and Compute](https://github.com/Google/private-join-and-compute) - Google's implementation of the "Private Join and Compute" functionality. This functionality allows two users, each holding an input file, to privately compute the sum of associated values for records that have common identifiers.
-* [Facebook Private Computation Solutions](https://github.com/facebookresearch/FBPCS) - FBPCS (Facebook Private Computation Solutions) is a secure, privacy safe and scalable architecture to deploy multi-party computation applications in a distributed way on virtual private clouds via Private Scaling architecture. FBPCS consists of various services, interfaces that enable various private measurement solutions, e.g. Private Lift.
+* [Facebook Private Computation Solutions](https://github.com/facebookresearch/FBPCS) - Facebook Private Computation Solutions (FBPCS) is a secure, privacy safe and scalable architecture to deploy multi-party computation applications in a distributed way on virtual private clouds via Private Scaling architecture. FBPCS consists of various services, interfaces that enable various private measurement solutions, e.g. Private Lift.
 * [Facebook Private Computation Framework](https://github.com/facebookresearch/fbpcf) - Facebook Private Computation Framework (FBPCF) library allows developers to perform randomized controlled trials, without leaking information about who participated or what action an individual took. It uses secure multiparty computation to guarantee this privacy. FBPCF is for scaling multi-party computation up via threading.
 
 ### Synthetic Data
@@ -264,7 +264,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
     * [Part 4: Privacy-Aware Design Framework](https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/)
 * [Lean Privacy Review](http://www.leanprivacyreview.com/#) - Carnegie Mellon University researchers developed a fast, easy method to catch privacy issues early in a system’s development process by gathering feedback from users.
 
-### Deceptive Design Patterns in Digital Services
+### Deceptive Design Patterns
 ---
 * [Deceptive Design Patterns](https://www.deceptive.design/) - Deceptive design patterns (also known as "dark patterns") are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something.
 * [The Dark Side of UX Design](https://darkpatterns.uxp2.com) - Practitioner-identified examples of stakeholder values superseding user values.
