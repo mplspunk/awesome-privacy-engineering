@@ -58,6 +58,7 @@
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
 * [Privacy Is Hard and Seven Other Myths: Achieving Privacy through Careful Design (Jaap-Henk Hoepman)](https://www.amazon.com/Privacy-Hard-Seven-Other-Myths/dp/0262045826/)
 * [Privacy Engineering: A Dataflow and Ontological Approach (Ian Oliver)](https://www.amazon.com/Privacy-Engineering-Dataflow-Ontological-Approach/dp/1497569710)
+* [Practical Data Privacy](https://www.oreilly.com/library/view/practical-data-privacy/9781098129453/)
 
 ### Data Deletion, Data Mapping, and Data Subject Access Requests
 ---
@@ -208,6 +209,10 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [Mimesis](https://github.com/lk-geimfari/mimesis) - Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages. 
 * [plaitpy](https://github.com/plaitpy/plaitpy) - plait.py is a program for generating fake data from composable yaml templates.
 * [Bogus](https://github.com/bchavez/Bogus) - Bogus is a simple fake data generator for .NET languages like C#, F# and VB.NET.
+* Gretel AI:
+    * [Gretel Synthetics](https://github.com/gretelai/gretel-synthetics) - Synthetic data generators for structured and unstructured text, featuring differentially private learning.
+    * [GDPR Helpers](https://github.com/gretelai/gdpr-helpers) - Generative models to automatically anonymize data to meet GDPR & CCPA standards.
+    * [Anonymize Tabular Data to Meet GDPR Privacy Requirements](https://gretel.ai/blog/anonymize-tabular-data-to-meet-gdpr-privacy-requirements) - A blog post covering how to use Gretel's GDPR Helpers.
 
 ### Differential Privacy and Federated Learning
 ---
@@ -235,6 +240,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [Computing Private Statistics with Privacy on Beam](https://codelabs.developers.google.com/codelabs/privacy-on-beam#0) - This Google Developer Codelab walks through the use of Privacy on Beam to perform differentially private analysis in Go.
 * [Tumult Analytics](https://www.tmlt.dev/) - Tumult Analytics is a Python library for computing aggregate queries on tabular data using differential privacy.
 * [FLUTE](https://github.com/microsoft/msrflute) - Created by Microsoft Research, Federated Learning Utilities and Tools for Experimentation (FLUTE) is a framework for running large-scale offline federated learning simulations.
+* [Flower](https://flower.dev/) - Originated from a research project at the University of Oxford, [Flower (flwr)](https://github.com/adap/flower) is a framework for building federated learning systems with a goal to make federated learning accessible to everyone.
 * TensorFlow
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
     * [TensorFlow Federated](https://www.tensorflow.org/federated) - TensorFlow Federated (TFF) is an open-source framework for machine learning and other computations on decentralized data.
@@ -287,12 +293,13 @@ ___
 * [GDPR Developer Guide](https://github.com/LINCnil/GDPR-Developer-Guide) - In order to assist web and application developers in making their work GDPR-compliant, France's Data Protection Agency, the CNIL, has drawn up a guide of best practices.
 * [Data Protection/Privacy Mapping Project](https://github.com/microsoft/data-protection-mapping-project) - Microsoft's Data Protection/Privacy Mapping Project facilitates consistent global comprehension and implementation of data protection with an open source mapping between ISO/IEC 27701 and global data protection and/or privacy laws and regulations.
 * [European Data Protection Board Guidelines 4/2019 on Article 25, Data Protection by Design and by Default](https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) - This document gives general guidance on the obligation of Data Protection by Design and by Default set forth in Article 25 in the GDPR.
-* [A Guide to Privacy by Design](https://www.aepd.es/sites/default/files/2019-12/guia-privacidad-desde-diseno_en.pdf) - This document by Spain's Data Protection Agency, AEPD, provides guidance on implementation of Privacy by Design into systems and applications.
+* [A Guide to Privacy by Design](https://www.aepd.es/sites/default/files/2019-12/guia-privacivdad-desde-diseno_en.pdf) - This document by Spain's Data Protection Agency, AEPD, provides guidance on implementation of Privacy by Design into systems and applications.
 * [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NISTIR 8062)](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
 
 ### Conferences
 ---
-* [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr22)
+* [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr23)
+    * [PEPR 2022 Conference](https://www.usenix.org/conference/pepr22/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lfUtLXo1bRFILHssRK-5ETT)
     * [PEPR 2021 Conference](https://fpf.org/fpf-event/pepr-2021-conference-on-privacy-engineering-practice-and-respect-2/) | [Videos](https://www.youtube.com/watch?v=lenVTvDMWxM&list=PL_cjZ5iVWe7n0sU5g0o8zTZSMLAvfl4nL)
     * [PEPR 2020 Conference](https://www.usenix.org/conference/pepr20/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lcie8IH64gqw6L9C7qXqu8x)
     * [PEPR 2019 Conference](https://www.usenix.org/conference/pepr19/conference-program) (slides only)
@@ -320,6 +327,8 @@ ___
 * [awesome-privacy-on-blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
 * [awesome-zero-knowledge-proofs](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
 * [awesome-privacy-papers](https://github.com/brighter-ai/awesome-privacy-papers)
+* [awesome-ml-sp-papers](https://github.com/gnipping/Awesome-ML-SP-Papers)
+* [awesome-synethetic-data](https://github.com/gretelai/awesome-synthetic-data)
 
 ### Related GitHub Topics
 ___
