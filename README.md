@@ -58,7 +58,7 @@
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
 * [Privacy Is Hard and Seven Other Myths: Achieving Privacy through Careful Design (Jaap-Henk Hoepman)](https://www.amazon.com/Privacy-Hard-Seven-Other-Myths/dp/0262045826/)
 * [Privacy Engineering: A Dataflow and Ontological Approach (Ian Oliver)](https://www.amazon.com/Privacy-Engineering-Dataflow-Ontological-Approach/dp/1497569710)
-* [Practical Data Privacy](https://www.oreilly.com/library/view/practical-data-privacy/9781098129453/)
+* [Practical Data Privacy (Katharine Jarmul)](https://www.oreilly.com/library/view/practical-data-privacy/9781098129453/)
 
 ### Data Deletion, Data Mapping, and Data Subject Access Requests
 ---
