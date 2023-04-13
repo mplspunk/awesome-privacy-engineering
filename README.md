@@ -20,7 +20,7 @@
 * [Designing for Trust with Users](#designing-for-trust-with-users)
 * [Deceptive Design Patterns](#deceptive-design-patterns)
 * [Tagging Personally Identifiable Information](#tagging-personally-identifiable-information)
-* [Regulatory Resources](#regulatory-resources)
+* [Regulatory and Framework Resources](#regulatory-and-framework-resources)
 * [Conferences](#conferences)
 * [Miscelleaneous](#miscellaneous)
 * [Other Awesome Privacy Curations](#other-awesome-privacy-curations)
