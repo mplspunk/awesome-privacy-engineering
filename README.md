@@ -34,7 +34,7 @@
     * Our Privacy Opportunity (Beginner) (7.7 hours)
     * Introduction to Remote Data Science (Intermediate) (8 hours)
     * Foundations of Private Computation (Intermediate) (60 hours)
-    * Federated Learning on Mobile (Intermediate) (40 hours)
+    * Federated Learning on Mobile (Intermediate) (40 hours) (Not Yet Released)
 * [Data Privacy and Anonymization in R](https://www.datacamp.com/courses/data-privacy-and-anonymization-in-r) - Datacamp course that covers publicly releasing data sets with a differential privacy guarantee. 
 * [Data Privacy and Anonymization in Python](https://www.datacamp.com/courses/data-privacy-and-anonymization-in-python) - Datacamp course on learning to process sensitive information with privacy-preserving techniques.
 * [Secure and Private AI (Udacity)](https://www.udacity.com/course/secure-and-private-ai--ud185#) - Udacity course that covers how to extend PyTorch with the tools necessary to train AI models that preserve user privacy.
@@ -59,6 +59,7 @@
 * [Privacy Is Hard and Seven Other Myths: Achieving Privacy through Careful Design (Jaap-Henk Hoepman)](https://www.amazon.com/Privacy-Hard-Seven-Other-Myths/dp/0262045826/)
 * [Privacy Engineering: A Dataflow and Ontological Approach (Ian Oliver)](https://www.amazon.com/Privacy-Engineering-Dataflow-Ontological-Approach/dp/1497569710)
 * [Practical Data Privacy (Katharine Jarmul)](https://www.oreilly.com/library/view/practical-data-privacy/9781098129453/)
+* [Threat Modeling: Designing for Security (Adam Shostack)](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998/)
 
 ### Data Deletion, Data Mapping, and Data Subject Access Requests
 ---
@@ -78,6 +79,7 @@
 * [Privado](https://github.com/Privado-Inc/privado) - Privado is an open source static code analysis tool to discover data flows in the code. It detects the personal data being processed, and further maps the journey of the data from the point of collection to going to interesting sinks such as third parties, databases, logs, and internal APIs.
 * [Detecting PII Using Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/get-started-api-pii.html) - To detect entities that contain personally identifiable information (PII) in a document, use the Amazon Comprehend DetectPiiEntities operation. 
 * [Octopii](https://github.com/redhuntlabs/Octopii) - Octopii is an open-source AI-powered PII scanner that can look for image assets such as Government IDs, passports, photos and signatures in a directory.
+* [Data Profiler](https://github.com/capitalone/DataProfiler) - DataProfiler is a Python library created by Capital One to make data analysis, monitoring, and sensitive data detection easy.
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
@@ -172,6 +174,7 @@ The potential for models to leak details from the data on which they’re traine
     *  [delta-presence](https://desfontain.es/privacy/delta-presence.html)
 * [Technical Privacy Metrics: a Systematic Survey](https://arxiv.org/abs/1512.00327) - Paper by Isabel Wagner and David Eckhoff that discusses over 80 privacy metrics and introduces categorizations based on the aspect of privacy they measure, their required inputs, and the type of data that needs protection. They also present a method on how to choose privacy metrics based on nine questions that help identify the right privacy metrics for a given scenario.
 * [Data Anonymization Tool](https://www.pdpc.gov.sg/Help-and-Resources/2018/01/Basic-Anonymisation) - The Singapore PDPC has launched a free Data Anonymization tool to help organizations transform simple datasets by applying basic anonymization techniques. 
+* [Masked AI](https://github.com/cado-security/masked-ai) - Python SDK and CLI wrappers that enable safer usage of public large language models (LLMs) like OpenAI/GPT4 by removing sensitive data from prompts and replacing it with fake data before submitting to the OpenAI API.
 
 ### Homomorphic Encryption
 ---
@@ -274,6 +277,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 ---
 * [Deceptive Design Patterns](https://www.deceptive.design/) - Deceptive design patterns (also known as "dark patterns") are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something.
 * [The Dark Side of UX Design](https://darkpatterns.uxp2.com) - Practitioner-identified examples of stakeholder values superseding user values.
+* [Dark Patterns Tipline](https://darkpatternstipline.org/sightings/) - Gallery of deceptive patterns identified and submitted by individuals.
 
 ### Tagging Personally Identifiable Information
 ___
@@ -304,6 +308,7 @@ ___
     * [PEPR 2020 Conference](https://www.usenix.org/conference/pepr20/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lcie8IH64gqw6L9C7qXqu8x)
     * [PEPR 2019 Conference](https://www.usenix.org/conference/pepr19/conference-program) (slides only)
 * [USENIX Enigma Conference](https://www.usenix.org/enigma)
+* [Symposium on Usable Privacy and Security (SOUPS)](https://www.usenix.org/conference/soups2023)
 
 ### Miscellaneous
 ___
