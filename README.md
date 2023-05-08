@@ -325,8 +325,8 @@ ___
 * [How Uber is Approaching Data Privacy Architecture](https://thecustomer.net/uber-data-privacy-architecture/)
 * [Microsoft - Code with Engineering Playbook: Privacy Fundamentals](https://microsoft.github.io/code-with-engineering-playbook/privacy/)
 * [Private AI - PETs Decision Tree](https://www.private-ai.com/wp-content/uploads/2021/10/PETs-Decision-Tree.pdf)
-* [Ethyca's Privacy Engineering Job Board](https://ethyca.com/privacy-engineering-jobs-board) - This privacy engineering job board is curated by the team at Ethyca and updated weekly.
-* [IAPP Privacy Engineering Section](https://iapp.org/connect/communities/sections/privacy-engineering/) - The IAPP's Privacy Engineering Section offers a range of programs, events, content, and networking opportunities.
+* [Ethyca's Privacy Engineering Job Board](https://ethyca.com/privacy-engineering-jobs-board)
+* [IAPP Privacy Engineering Section](https://iapp.org/connect/communities/sections/privacy-engineering/)
 
 ### Other Awesome Privacy Curations
 ---
