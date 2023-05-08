@@ -117,6 +117,7 @@
     * [How Randomized Response Can Help Collect Sensitive Information Responsibly](https://pair.withgoogle.com/explorables/anonymization/) - Giant datasets are revealing new patterns in cancer, income inequality and other important areas. However, the widespread availability of fast computers that can cross reference public data is making it harder to collect private information without inadvertently violating people's privacy. Modern randomization techniques can help preserve anonymity.
     * [Can a Model Be Differentially Private and Fair?](https://pair.withgoogle.com/explorables/private-and-fair/) - Training with differential privacy limits the information about any one data point that is extractable but in some cases there’s an unexpected side-effect: reduced accuracy with underrepresented subgroups disparately impacted.
     * [Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/) - Models trained on real-world data can encode real-world bias. Hiding information about protected classes doesn't always fix things — sometimes it can even hurt.
+    * [How Federated Learning Protects Privacy](https://pair.withgoogle.com/explorables/federated-learning/) - With federated learning, it’s possible to collaboratively train a model with data from multiple users without any raw data leaving their devices.
 * [Fairlearn](https://github.com/fairlearn/fairlearn) - A Python package to assess and improve fairness of machine learning models. 
 * [InterpretML](https://interpret.ml) - A toolkit to help understand models and enable responsible machine learning.
 * [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) - A tool to quantify the privacy risks of machine learning models with respect to inference attacks, notably membership inference attacks 
@@ -220,6 +221,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 ### Differential Privacy and Federated Learning
 ---
 * [A Friendly, Non-Technical Introduction to Differential Privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) - Blog post that provides simple explanations for the core concepts behind differential privacy.
+* [A List of Real-World Uses of Differential Privacy](https://desfontain.es/privacy/real-world-differential-privacy.html) - Blog post that compiles a list of real-world deployments of differential privacy, with their privacy parameters.
 * [Differential Privacy at the U.S. Census Bureau](https://youtu.be/pT19VwBAqKA) - Video on how differential privacy is being implemented in the U.S. Census.
 * [Privacy-Preserving AI](https://www.youtube.com/watch?v=4zrU54VIK6k) - Video on Privacy Preserving AI (Andrew Trask) | MIT Deep Learning Series
 * [PySyft](https://github.com/OpenMined/PySyft) - PySyft is a Python library for secure and private Deep Learning.
@@ -298,6 +300,8 @@ ___
 * [Data Protection/Privacy Mapping Project](https://github.com/microsoft/data-protection-mapping-project) - Microsoft's Data Protection/Privacy Mapping Project facilitates consistent global comprehension and implementation of data protection with an open source mapping between ISO/IEC 27701 and global data protection and/or privacy laws and regulations.
 * [European Data Protection Board Guidelines 4/2019 on Article 25, Data Protection by Design and by Default](https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) - This document gives general guidance on the obligation of Data Protection by Design and by Default set forth in Article 25 in the GDPR.
 * [A Guide to Privacy by Design](https://www.aepd.es/sites/default/files/2019-12/guia-privacivdad-desde-diseno_en.pdf) - This document by Spain's Data Protection Agency, AEPD, provides guidance on implementation of Privacy by Design into systems and applications.
+* [Emerging Privacy Enhancing Technologies: Current Regulatory and Policy Approaches](https://www.oecd-ilibrary.org/science-and-technology/emerging-privacy-enhancing-technologies_bf121be4-en) - The Organisation for Economic Co-operation and Development (OECD)'s report reviews recent technological advancements and evaluates the effectiveness of different types of privacy enhancing technologies (PETs), as well as the challenges and opportunities they present.
+* [UN Guide on Privacy-Enhancing Technologies for Official Statistics](https://unstats.un.org/bigdata/task-teams/privacy/guide/) - This United Nations (UN) document presents methodologies and approaches to mitigating privacy risks when using sensitive or confidential data.
 * [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NISTIR 8062)](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
 
 ### Conferences
@@ -320,7 +324,9 @@ ___
 * [Privacy is an Afterthought in the Software Lifecycle. That Needs to Change](https://stackoverflow.blog/2021/07/19/privacy-is-an-afterthought-in-the-software-lifecycle-that-needs-to-change/)
 * [How Uber is Approaching Data Privacy Architecture](https://thecustomer.net/uber-data-privacy-architecture/)
 * [Microsoft - Code with Engineering Playbook: Privacy Fundamentals](https://microsoft.github.io/code-with-engineering-playbook/privacy/)
-* [Private AI - Privacy Enhancing Technologies (PETs) Decision Tree](https://www.private-ai.com/wp-content/uploads/2021/10/PETs-Decision-Tree.pdf)
+* [Private AI - PETs Decision Tree](https://www.private-ai.com/wp-content/uploads/2021/10/PETs-Decision-Tree.pdf)
+* [Ethyca's Privacy Engineering Job Board](https://ethyca.com/privacy-engineering-jobs-board) - This privacy engineering job board is curated by the team at Ethyca and updated weekly.
+* [IAPP Privacy Engineering Section](https://iapp.org/connect/communities/sections/privacy-engineering/) - The IAPP's Privacy Engineering Section offers a range of programs, events, content, and networking opportunities.
 
 ### Other Awesome Privacy Curations
 ---
