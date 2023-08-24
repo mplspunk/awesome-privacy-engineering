@@ -80,6 +80,7 @@
 * [Detecting PII Using Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/get-started-api-pii.html) - To detect entities that contain personally identifiable information (PII) in a document, use the Amazon Comprehend DetectPiiEntities operation. 
 * [Octopii](https://github.com/redhuntlabs/Octopii) - Octopii is an open-source AI-powered PII scanner that can look for image assets such as Government IDs, passports, photos and signatures in a directory.
 * [Data Profiler](https://github.com/capitalone/DataProfiler) - DataProfiler is a Python library created by Capital One to make data analysis, monitoring, and sensitive data detection easy.
+* [PII Catcher](https://github.com/tokern/piicatcher) - Scan databases and data warehouses for PII data. Tag tables and columns in data catalogs like Amundsen and Datahub.
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
@@ -101,6 +102,7 @@
 * [PLOT4AI](https://plot4.ai/) - Privacy Library Of Threats 4 Artificial Intelligence (PLOT4AI) is a threat modeling library to help practitioners build responsible artificial intelligence.
 * [Draw.io Libraries for Threat Modeling](https://github.com/michenriksen/drawio-threatmodeling) - Collection of custom libraries for using the Draw.io diagramming application for threat modeling.
 * [Models of Applied Privacy (MAP)](https://github.com/comcast/map) - A privacy threat modeling persona framework that developers can use to test and document privacy threats, and find edge cases of privacy harm.
+* [Privacy Adversarial Framework (PAF)](https://github.com/facebookresearch/privacy_adversarial_framework) - Developed by Facebook, the Privacy Adversarial Framework (PAF) is a knowledgebase of privacy-focused adversarial tactics and techniques that is heavily inspired by MITRE ATT&CK®.
 
 ### Machine Learning and Algorithmic Bias
 ---
@@ -138,7 +140,9 @@ The potential for models to leak details from the data on which they’re traine
 * [Responsible AI by Design](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6) - Microsoft's hub for policies, practices, and tools that make up its framework for Responsible AI by Design. Includes a Responsible AI Standard, Responsible AI Impact Assessment Guide, and Responsible AI Impact Assessment Template.
 * [Private AI Bootcamp](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn) - Youtube playlist of lectures from the Private AI Bootcamp at Microsoft Research Redmond in December 2019.
 * [Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox) - Python library from the Linux Foundation AI & Data Foundation (LF AI & Data) that enables developers and researchers to defend and evaluate machine learning models and applications against the adversarial threats of evasion, poisoning, extraction, and inference. 
-* [Trustworthy ML Initiative](https://www.trustworthyml.org/home) - The Trustworthy ML Initiative is a community of researchers and practitioners working on topics related to machine learning models and algorithms that are accurate, explainable, fair, privacy-preserving, causal, and robust. 
+* [Trustworthy ML Initiative](https://www.trustworthyml.org/home) - The Trustworthy ML Initiative is a community of researchers and practitioners working on topics related to machine learning models and algorithms that are accurate, explainable, fair, privacy-preserving, causal, and robust.
+* [AI Nutrition Facts Labels](https://nutrition-facts.ai/) - Tool from Twilio that allows generation of AI Nutrition Labels intended to give consumers and businesses a more transparent and clear view into ‘what's in the box’.
+* [Explainable Artificial Intelligence](https://interpretable-ml-class.github.io/) - This course syllabus from Harvard University aims to familiarize students with the recent advances in the emerging field of eXplainable Artificial Intelligence (XAI).
 
 ### Facial Recognition
 ---
@@ -146,6 +150,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Fawkes](https://github.com/Shawn-Shan/fawkes) - Fawkes, privacy preserving tool against facial recognition systems, developed by researchers at SANDLab, University of Chicago.
 * [LowKey: Leveraging Adversarial Attacks to Protect Social Media Users from Facial Recognition](https://openreview.net/forum?id=hJmtwocEqzc) - Adversarial filter that accounts for the entire image processing pipeline and is demonstrably effective against industrial-grade pipelines that include face detection and large scale databases.  Also includes an [easy-to-use webtool](https://lowkey.umiacs.umd.edu/) that significantly degrades the accuracy of Amazon Rekognition and the Microsoft Azure Face Recognition API.
 * [Magritte](https://github.com/google/magritte) - Google's Magritte is a MediaPipe-based library to redact faces from photos and videos. It provides processing graphs to reliably detect faces, track their movements in videos, and disguise the person's identity by obfuscating their face.
+* [Creating a Serverless Face Blurring Service for Photos in Amazon S3](https://aws.amazon.com/blogs/compute/creating-a-serverless-face-blurring-service-for-photos-in-amazon-s3/) - This blog post shows how to build a serverless face blurring service for photos uploaded to an Amazon S3 bucket.
 
 ### De-Identification and Anonymization
 ---
@@ -258,6 +263,11 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
     * [Epsilon Software for Private Machine Learning with Chang Lu](https://twimlai.com/twiml-talk-135-epsilon-software-for-private-machine-learning-with-chang-liu/)
 * Episode of This Week in Machine Learning and AI Podcast:
     * [Privacy-Preserving Decentralized Data Science with Andrew Trask](https://twimlai.com/twiml-talk-241-privacy-preserving-decentralized-data-science/)
+* Four-Article Series on Differential Privacy by Singapore's Data Privacy Protection Capability Centre (DPPCC):
+    * [Sharing Data with Differential Privacy: A Primer](https://medium.com/dsaid-govtech/protecting-your-data-privacy-with-differential-privacy-an-introduction-abee1d7fcb63)
+    * [Practitioners’ Guide to Accessing Emerging Differential Privacy Tools](https://medium.com/dsaid-govtech/practitioners-guide-to-accessing-emerging-differential-privacy-tools-861acddb2a44#c4c0)
+    * [Evaluating Differential Privacy Tools’ Performance](https://medium.com/dsaid-govtech/evaluating-differential-privacy-tools-performance-dc75e8efb03e#0829)
+    * [Getting Started with Scalable Differential Privacy Tools on the Cloud](https://medium.com/dsaid-govtech/getting-started-with-scalable-differential-privacy-tools-on-the-cloud-53ed65322584)
 
 ### Designing for Trust with Users
 ---
@@ -280,6 +290,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [Deceptive Design Patterns](https://www.deceptive.design/) - Deceptive design patterns (also known as "dark patterns") are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something.
 * [The Dark Side of UX Design](https://darkpatterns.uxp2.com) - Practitioner-identified examples of stakeholder values superseding user values.
 * [Dark Patterns Tipline](https://darkpatternstipline.org/sightings/) - Gallery of deceptive patterns identified and submitted by individuals.
+* [10 Examples of Manipulative Consent Requests](https://wideangle.co/blog/dark-patterns-examples-of-manipulative-consent-requests) - Blog post that illustrates ten examples of manipulative consent patterns in cookie banners.
 
 ### Tagging Personally Identifiable Information
 ___
@@ -287,19 +298,21 @@ ___
 * [Categorizing Your AWS S3 Storage Using Tags](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html) - In addition to data classification, tagging offers benefits such as fine-grained access control of permissions and object lifecycle management.
 * [Quickstart for Tagging Tables in Google Cloud](https://cloud.google.com/data-catalog/docs/quickstart-tagging) - Tutorial shows how to create a BigQuery dataset, copy data to a new table in your dataset, create a tag template, and attach the tag to your table.
 * [Using Policy Tags in Google Cloud's BigQuery](https://cloud.google.com/bigquery/docs/best-practices-policy-tags) - Use policy tags to define access to your data, for example, when you use BigQuery column-level security.
-* [Adding a Tag-Based PII Policy in Cloudera](https://docs.cloudera.com/runtime/7.0.2/security-ranger-authorization/topics/security-ranger-tag-policy-add-pii.html) - How to add a PII tag-based policy. In this example, the author creates a tag-based policy for objects tagged "PII" in Atlas. 
+* [Adding a Tag-Based PII Policy in Cloudera](https://docs.cloudera.com/runtime/7.0.2/security-ranger-authorization/topics/security-ranger-tag-policy-add-pii.html) - How to add a PII tag-based policy. In this example, the author creates a tag-based policy for objects tagged "PII" in Atlas.
+* [BigQuery PII Classifier](https://github.com/GoogleCloudPlatform/bq-pii-classifier) - Google Cloud BigQuery PII Classifier is a solution to automate the process of discovering and tagging PII data across BigQuery tables and applying column-level access controls to restrict specific PII data types to certain users/groups.
 
 ### Regulatory and Framework Resources
 ---
 * [Global Comprehensive Privacy Law Mapping Chart](https://iapp.org/resources/article/global-comprehensive-privacy-law-mapping-chart/) - The IAPP's Westin Research Center has created this chart mapping several comprehensive data protection laws.
 * [US State Privacy Legislation Tracker](https://iapp.org/resources/article/us-state-privacy-legislation-tracker/) - The IAPP Westin Research Center actively tracks the proposed and enacted comprehensive privacy bills from across the United States.
-* [Privacy in M&A transactions: The Playbook](https://iapp.org/resources/article/privacy-in-ma-transactions-playbook/) - The playbook is directed to mergers and acquisitions (M&A) and privacy teams to help identify potential privacy-related issues.
+* [Privacy in M&A Transactions: The Playbook](https://iapp.org/resources/article/privacy-in-ma-transactions-playbook/) - The playbook is directed to mergers and acquisitions (M&A) and privacy teams to help identify potential privacy-related issues.
 * [European Data Protection Supervisor Website Evidence Collector](https://github.com/EU-EDPS/website-evidence-collector) - The Website Evidence Collector tool automates the collection of evidence of personal data processing, such as cookies, or requests to third parties.
 * [webXray](https://webxray.org/) - webXray is a command line tool for analyzing webpage traffic and content, extracting legal policies, and identifying the companies which collect user data.
 * [GDPR Developer Guide](https://github.com/LINCnil/GDPR-Developer-Guide) - In order to assist web and application developers in making their work GDPR-compliant, France's Data Protection Agency, the CNIL, has drawn up a guide of best practices.
 * [Data Protection/Privacy Mapping Project](https://github.com/microsoft/data-protection-mapping-project) - Microsoft's Data Protection/Privacy Mapping Project facilitates consistent global comprehension and implementation of data protection with an open source mapping between ISO/IEC 27701 and global data protection and/or privacy laws and regulations.
 * [European Data Protection Board Guidelines 4/2019 on Article 25, Data Protection by Design and by Default](https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) - This document gives general guidance on the obligation of Data Protection by Design and by Default set forth in Article 25 in the GDPR.
 * [A Guide to Privacy by Design](https://www.aepd.es/sites/default/files/2019-12/guia-privacivdad-desde-diseno_en.pdf) - This document by Spain's Data Protection Agency, AEPD, provides guidance on implementation of Privacy by Design into systems and applications.
+* [Guidance on Anonymisation and Pseudonymisation](https://www.dataprotection.ie/sites/default/files/uploads/2022-04/Anonymisation%20and%20Pseudonymisation%20-%20latest%20April%202022.pdf) - This document from the Irish Data Protection Commission (DPC) offers guidance on implementation of anonymization and pseudonuymization.
 * [Emerging Privacy Enhancing Technologies: Current Regulatory and Policy Approaches](https://www.oecd-ilibrary.org/science-and-technology/emerging-privacy-enhancing-technologies_bf121be4-en) - The Organisation for Economic Co-operation and Development (OECD)'s report reviews recent technological advancements and evaluates the effectiveness of different types of privacy enhancing technologies (PETs), as well as the challenges and opportunities they present.
 * [UN Guide on Privacy-Enhancing Technologies for Official Statistics](https://unstats.un.org/bigdata/task-teams/privacy/guide/) - This United Nations (UN) document presents methodologies and approaches to mitigating privacy risks when using sensitive or confidential data.
 * [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NISTIR 8062)](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
@@ -327,6 +340,8 @@ ___
 * [Private AI - PETs Decision Tree](https://www.private-ai.com/wp-content/uploads/2021/10/PETs-Decision-Tree.pdf)
 * [Ethyca's Privacy Engineering Job Board](https://ethyca.com/privacy-engineering-jobs-board)
 * [IAPP Privacy Engineering Section](https://iapp.org/connect/communities/sections/privacy-engineering/)
+* [VISCHER's Website and App Tracking Legal Checklist](https://www.rosenthal.ch/downloads/VISCHER-Tracking-Checklist.pdf)
+* [VISCHER's Marketing Communications Legal Checklist](https://www.rosenthal.ch/downloads/VISCHER-Marcom-Checklist.pdf)
 
 ### Other Awesome Privacy Curations
 ---
@@ -340,6 +355,7 @@ ___
 * [awesome-privacy-papers](https://github.com/brighter-ai/awesome-privacy-papers)
 * [awesome-ml-sp-papers](https://github.com/gnipping/Awesome-ML-SP-Papers)
 * [awesome-synethetic-data](https://github.com/gretelai/awesome-synthetic-data)
+* [awesome-privacy](https://github.com/Lissy93/awesome-privacy)
 
 ### Related GitHub Topics
 ___
