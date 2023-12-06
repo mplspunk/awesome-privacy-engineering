@@ -22,6 +22,7 @@
 * [Tagging Personally Identifiable Information](#tagging-personally-identifiable-information)
 * [Regulatory and Framework Resources](#regulatory-and-framework-resources)
 * [Conferences](#conferences)
+* [Career](#career)
 * [Miscelleaneous](#miscellaneous)
 * [Other Awesome Privacy Curations](#other-awesome-privacy-curations)
 * [Related Github Topics](#related-github-topics)
@@ -44,7 +45,10 @@
 * [Privacy by Design: Data Sharing](https://www.linkedin.com/learning/privacy-by-design-data-sharing/privacy-and-data-sharing) - LinkedIn Learning course by Nishant Bhajaria.
 * [Implementing a Privacy, Risk, and Assurance Program](https://www.linkedin.com/learning/implementing-a-privacy-risk-and-assurance-program/privacy-and-your-business) - LinkedIn Learning course by Nishant Bhajaria.
 * [Data Protocol](https://dataprotocol.com/courses) - Courses to teach developers and technical professionals how to build products responsibly and partner with platforms effectively.
-* [Carnegie Mellon University - Privacy Engineering Certificate](https://privacy.cs.cmu.edu/privacy-cert/index.html) - Four-week certificate program that revolves around a combination of mini-tutorials, class discussions, and hands-on exercises designed to ensure that students develop practical knowledge of all key privacy engineering areas. 
+* [Carnegie Mellon University - Privacy Engineering Certificate](https://privacy.cs.cmu.edu/privacy-cert/index.html) - Four-week certificate program that revolves around a combination of mini-tutorials, class discussions, and hands-on exercises designed to ensure that students develop practical knowledge of all key privacy engineering areas.
+* [Technical Privacy Masterclass](https://learn.privado.ai/courses/technical-privacy-masterclass) - In four modules, this course from Privado is designed to deliver privacy leaders and their teams with an overview of the pillars of a proactive privacy program.
+* [Privacy Quest](https://www.privacyquest.org/) - A gamified approach to learning about privacy engineering, Privacy Quest uses challenges and competitions to build your privacy and security knowledge.
+* [Hitchhiker's Guide to Privacy Engineering](https://hgpe.orderofepoch.com/) - The goal of this creative privacy project is to offer a fun, engaging, and immersive privacy learning experience for privacy lawyers to improve their technical privacy skills.
 
 ### Books
 ---
@@ -58,7 +62,7 @@
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
 * [Privacy Is Hard and Seven Other Myths: Achieving Privacy through Careful Design (Jaap-Henk Hoepman)](https://www.amazon.com/Privacy-Hard-Seven-Other-Myths/dp/0262045826/)
 * [Privacy Engineering: A Dataflow and Ontological Approach (Ian Oliver)](https://www.amazon.com/Privacy-Engineering-Dataflow-Ontological-Approach/dp/1497569710)
-* [Practical Data Privacy (Katharine Jarmul)](https://www.oreilly.com/library/view/practical-data-privacy/9781098129453/)
+* [Practical Data Privacy (Katharine Jarmul)](https://www.oreilly.com/library/view/practical-data-privacy/9781098129453/) [(and accompanying Jupyter notebooks)](https://github.com/kjam/practical-data-privacy)
 * [Threat Modeling: Designing for Security (Adam Shostack)](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998/)
 
 ### Data Deletion, Data Mapping, and Data Subject Access Requests
@@ -197,6 +201,7 @@ The potential for models to leak details from the data on which they’re traine
 ### Tokenization
 ---
 * [AWS Serverless Tokenization](https://github.com/aws-samples/aws-serverless-tokenization) - Learn how to use Lambda Layers to develop a serverless tokenization solution in AWS.
+* [auto-data-tokenize](https://github.com/GoogleCloudPlatform/auto-data-tokenize) - This repo demonstrates a reference implementation of detecting and tokenizing sensitive structured data within Google Cloud Platform.
 
 ### Secure Multi-Party Computation
 ---
@@ -316,16 +321,25 @@ ___
 * [Emerging Privacy Enhancing Technologies: Current Regulatory and Policy Approaches](https://www.oecd-ilibrary.org/science-and-technology/emerging-privacy-enhancing-technologies_bf121be4-en) - The Organisation for Economic Co-operation and Development (OECD)'s report reviews recent technological advancements and evaluates the effectiveness of different types of privacy enhancing technologies (PETs), as well as the challenges and opportunities they present.
 * [UN Guide on Privacy-Enhancing Technologies for Official Statistics](https://unstats.un.org/bigdata/task-teams/privacy/guide/) - This United Nations (UN) document presents methodologies and approaches to mitigating privacy risks when using sensitive or confidential data.
 * [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NISTIR 8062)](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
+* [De-Identifying Government Datasets: Techniques and Governance](https://csrc.nist.gov/pubs/sp/800/188/final) - NIST Special Publication 800-188 describes the use of deidentification while still allowing for the production of meaningful statistical analysis for US federal agencies.
 
 ### Conferences
 ---
 * [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr23)
+    * [PEPR 2023 Conference](https://www.usenix.org/conference/pepr23) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5le5MLOePeumxpQfUg2Gyfui)
     * [PEPR 2022 Conference](https://www.usenix.org/conference/pepr22/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lfUtLXo1bRFILHssRK-5ETT)
     * [PEPR 2021 Conference](https://fpf.org/fpf-event/pepr-2021-conference-on-privacy-engineering-practice-and-respect-2/) | [Videos](https://www.youtube.com/watch?v=lenVTvDMWxM&list=PL_cjZ5iVWe7n0sU5g0o8zTZSMLAvfl4nL)
     * [PEPR 2020 Conference](https://www.usenix.org/conference/pepr20/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lcie8IH64gqw6L9C7qXqu8x)
     * [PEPR 2019 Conference](https://www.usenix.org/conference/pepr19/conference-program) (slides only)
 * [USENIX Enigma Conference](https://www.usenix.org/enigma)
 * [Symposium on Usable Privacy and Security (SOUPS)](https://www.usenix.org/conference/soups2023)
+* [International Workshop on Privacy Engineering](https://iwpe.info/index.html)
+
+### Career
+___
+* [What Does a Privacy Engineer Do, Anyway?](https://desfontain.es/privacy/privacy-engineer.html)
+* [What to Expect in a Privacy Interview](https://theprivacypractitioner.com/what-to-expect-in-a-privacy-interview/)
+* [Ethyca's Privacy Engineering Job Board](https://ethyca.com/privacy-engineering-jobs-board)
 
 ### Miscellaneous
 ___
@@ -338,7 +352,6 @@ ___
 * [How Uber is Approaching Data Privacy Architecture](https://thecustomer.net/uber-data-privacy-architecture/)
 * [Microsoft - Code with Engineering Playbook: Privacy Fundamentals](https://microsoft.github.io/code-with-engineering-playbook/privacy/)
 * [Private AI - PETs Decision Tree](https://www.private-ai.com/wp-content/uploads/2021/10/PETs-Decision-Tree.pdf)
-* [Ethyca's Privacy Engineering Job Board](https://ethyca.com/privacy-engineering-jobs-board)
 * [IAPP Privacy Engineering Section](https://iapp.org/connect/communities/sections/privacy-engineering/)
 * [VISCHER's Website and App Tracking Legal Checklist](https://www.rosenthal.ch/downloads/VISCHER-Tracking-Checklist.pdf)
 * [VISCHER's Marketing Communications Legal Checklist](https://www.rosenthal.ch/downloads/VISCHER-Marcom-Checklist.pdf)
