@@ -107,6 +107,7 @@
 * [Draw.io Libraries for Threat Modeling](https://github.com/michenriksen/drawio-threatmodeling) - Collection of custom libraries for using the Draw.io diagramming application for threat modeling.
 * [Models of Applied Privacy (MAP)](https://github.com/comcast/map) - A privacy threat modeling persona framework that developers can use to test and document privacy threats, and find edge cases of privacy harm.
 * [Privacy Adversarial Framework (PAF)](https://github.com/facebookresearch/privacy_adversarial_framework) - Developed by Facebook, the Privacy Adversarial Framework (PAF) is a knowledgebase of privacy-focused adversarial tactics and techniques that is heavily inspired by MITRE ATT&CK®.
+* [PANOPTIC™ Privacy Threat Model](https://ptmworkshop.gitlab.io/#/panoptic) - MITRE PANOPTIC™, the Pattern and Action Nomenclature Of Privacy Threats In Context, is a privacy threat taxonomy for breaking down and describing privacy attacks against individuals and groups of individuals.
 
 ### Machine Learning and Algorithmic Bias
 ---
@@ -322,6 +323,7 @@ ___
 * [UN Guide on Privacy-Enhancing Technologies for Official Statistics](https://unstats.un.org/bigdata/task-teams/privacy/guide/) - This United Nations (UN) document presents methodologies and approaches to mitigating privacy risks when using sensitive or confidential data.
 * [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NIST IR 8062)](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
 * [De-Identifying Government Datasets: Techniques and Governance (NIST SP 800-188)](https://csrc.nist.gov/pubs/sp/800/188/final) - NIST Special Publication 800-188 describes the use of deidentification while still allowing for the production of meaningful statistical analysis for US federal agencies.
+* [Guidelines for Evaluating Differential Privacy Guarantees (NIST SP 800-226)](https://csrc.nist.gov/pubs/sp/800/226/ipd) - NIST Special Publication 800-226 is intended to help US federal agencies and practitioners of all backgrounds—policy makers, business owners, product managers, IT technicians, software engineers, data scientists, researchers, and academics—better understand how to evaluate promises made (and not made) when deploying differential privacy, including for privacy-preserving machine learning.
 
 ### Conferences
 ---
