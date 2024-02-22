@@ -262,6 +262,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [Tumult Analytics](https://www.tmlt.dev/) - Tumult Analytics is a Python library for computing aggregate queries on tabular data using differential privacy.
 * [FLUTE](https://github.com/microsoft/msrflute) - Created by Microsoft Research, Federated Learning Utilities and Tools for Experimentation (FLUTE) is a framework for running large-scale offline federated learning simulations.
 * [Flower](https://flower.dev/) - Originated from a research project at the University of Oxford, [Flower (flwr)](https://github.com/adap/flower) is a framework for building federated learning systems with a goal to make federated learning accessible to everyone.
+* [Federated Compute Platform](https://github.com/google/federated-compute) - This Google repository hosts infrastructure for compiling and running federated programs and computations in the cross-device setting.
 * TensorFlow
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
     * [TensorFlow Federated](https://www.tensorflow.org/federated) - TensorFlow Federated (TFF) is an open-source framework for machine learning and other computations on decentralized data.
