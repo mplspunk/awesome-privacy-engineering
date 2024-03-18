@@ -36,15 +36,14 @@
     * Introduction to Remote Data Science (Intermediate) (8 hours)
     * Foundations of Private Computation (Intermediate) (60 hours)
     * Federated Learning on Mobile (Intermediate) (40 hours) (Not Yet Released)
-* [Data Privacy and Anonymization in R](https://www.datacamp.com/courses/data-privacy-and-anonymization-in-r) - Datacamp course that covers publicly releasing data sets with a differential privacy guarantee. 
 * [Data Privacy and Anonymization in Python](https://www.datacamp.com/courses/data-privacy-and-anonymization-in-python) - Datacamp course on learning to process sensitive information with privacy-preserving techniques.
 * [Secure and Private AI (Udacity)](https://www.udacity.com/course/secure-and-private-ai--ud185#) - Udacity course that covers how to extend PyTorch with the tools necessary to train AI models that preserve user privacy.
 * [Practical Data Ethics](https://ethics.fast.ai) - This class was originally taught in-person at the University of San Francisco Data Institute in January-February 2020.
-* [Privacy-Conscious Computer Systems](http://cs.brown.edu/courses/csci2390/2021/index.html) - This class at Brown University (CSCI 2390) focuses on how to design computer systems that protect users' privacy.
+* [Privacy-Conscious Computer Systems](https://cs.brown.edu/courses/csci2390/2023/) - This class at Brown University (CSCI 2390) focuses on how to design computer systems that protect users' privacy.
 * [Privacy by Design: Data Classification](https://www.linkedin.com/learning/privacy-by-design-data-classification/my-path-to-privacy) - LinkedIn Learning course by Nishant Bhajaria.
 * [Privacy by Design: Data Sharing](https://www.linkedin.com/learning/privacy-by-design-data-sharing/privacy-and-data-sharing) - LinkedIn Learning course by Nishant Bhajaria.
 * [Implementing a Privacy, Risk, and Assurance Program](https://www.linkedin.com/learning/implementing-a-privacy-risk-and-assurance-program/privacy-and-your-business) - LinkedIn Learning course by Nishant Bhajaria.
-* [Data Protocol](https://dataprotocol.com/courses) - Courses to teach developers and technical professionals how to build products responsibly and partner with platforms effectively.
+* [Data Protocol](https://dataprotocol.com/products/courses) - Courses to teach developers and technical professionals how to build products responsibly and partner with platforms effectively.
 * [Carnegie Mellon University - Privacy Engineering Certificate](https://privacy.cs.cmu.edu/privacy-cert/index.html) - Four-week certificate program that revolves around a combination of mini-tutorials, class discussions, and hands-on exercises designed to ensure that students develop practical knowledge of all key privacy engineering areas.
 * [Technical Privacy Masterclass](https://learn.privado.ai/courses/technical-privacy-masterclass) - In four modules, this course from Privado is designed to deliver privacy leaders and their teams with an overview of the pillars of a proactive privacy program.
 * [Privacy Quest](https://www.privacyquest.org/) - A gamified approach to learning about privacy engineering, Privacy Quest uses challenges and competitions to build your privacy and security knowledge.
@@ -56,7 +55,7 @@
 * [Information Privacy Engineering and Privacy by Design: Understanding Privacy Threats, Technology, and Regulations Based on Standards and Best Practices (William Stallings)](https://www.amazon.com/Information-Privacy-Engineering-Design-Understanding/dp/0135302153)
 * [The Algorithmic Foundation of Differential Privacy (Cynthia Dwork, Aaron Roth)](https://columbia.github.io/private-systems-class/papers/Dwork2013Foundations.pdf)
 * [Building an Anonymization Pipeline: Creating Safe Data (Luk Arbuckle, Khaled El Emam)](https://www.amazon.com/Building-Anonymization-Pipeline-Creating-Safe/dp/1492053430)
-* [Strategic Privacy by Design (R. Jason Cronk)](https://iapp.org/store/books/a191a00000345yDAAQ/)
+* [Strategic Privacy by Design (R. Jason Cronk)](https://iapp.org/resources/article/strategic-privacy-by-design/)
 * [The Architecture of Privacy: On Engineering Technologies that Can Deliver Trustworthy Safeguards (Courtney Bowman, Ari Gesher, John K. Grant, Daniel Slate, Elissa Lerner)](https://www.amazon.com/Architecture-Privacy-Engineering-Technologies-Trustworthy-ebook/dp/B014LPOXU2)
 * [Data Privacy: A Runbook for Engineers (Nishant Bhajaria)](https://www.manning.com/books/data-privacy)
 * [Privacy Design Strategies (The Little Blue Book) (Jaap-Henk Hoepman)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf)
@@ -75,13 +74,13 @@
 * [Best Practices: GDPR and CCPA Compliance Using Delta Lake](https://docs.databricks.com/security/privacy/gdpr-delta.html) - Article that describes how to use Delta Lake on Databricks to manage General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) compliance for a data lake. 
 * [Klaro!](https://github.com/kiprotect/klaro) - Klaro is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website.
 * [OpenDSR](https://github.com/opengdpr/OpenDSR) - A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
-* [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) - PrivacyBot is a simple automated service to initiate CCPA deletion requests with data brokers.
+* [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) - PrivacyBot is a simple automated service to initiate CCPA deletion requests with data brokers. (deprecated)
 * [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the European Union Cookie Law, CCPA, GDPR and other privacy laws.
 * [Fides](https://github.com/ethyca/fides) - An open-source tool that allows you to easily declare your systems' privacy characteristics, track privacy related changes to systems and data in version control, and enforce policies in both your source code and your runtime infrastructure.
     * [Fideslang](https://github.com/ethyca/fideslang) - Open-source description language for privacy to declare data types and data behaviors in your tech stack in order to simplify data privacy globally. Supports GDPR, CCPA, LGPD and ISO 19944.
-    * [Fidesops](https://github.com/ethyca/fidesops) - DSAR Orchestration: Privacy Request automation to fulfill GDPR, CCPA, and LGPD data subject requests.
+    * [Fidesops](https://github.com/ethyca/fidesops) - DSAR Orchestration: Privacy Request automation to fulfill GDPR, CCPA, and LGPD data subject requests. (deprecated)
 * [Privado](https://github.com/Privado-Inc/privado) - Privado is an open source static code analysis tool to discover data flows in the code. It detects the personal data being processed, and further maps the journey of the data from the point of collection to going to interesting sinks such as third parties, databases, logs, and internal APIs.
-* [Detecting PII Using Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/get-started-api-pii.html) - To detect entities that contain personally identifiable information (PII) in a document, use the Amazon Comprehend DetectPiiEntities operation. 
+* [Detecting PII Using Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/how-pii.html) - Using Amazon Comprehend to detect entities that contain personally identifiable information (PII) in a text document. 
 * [Octopii](https://github.com/redhuntlabs/Octopii) - Octopii is an open-source AI-powered PII scanner that can look for image assets such as Government IDs, passports, photos and signatures in a directory.
 * [Data Profiler](https://github.com/capitalone/DataProfiler) - DataProfiler is a Python library created by Capital One to make data analysis, monitoring, and sensitive data detection easy.
 * [PII Catcher](https://github.com/tokern/piicatcher) - Scan databases and data warehouses for PII data. Tag tables and columns in data catalogs like Amundsen and Datahub.
@@ -112,7 +111,7 @@
 ### Machine Learning and Algorithmic Bias
 ---
 * [Pribot and Polisis](https://pribot.org) - Polisis is a unique way of visualizing privacy policies. Using deep learning, it allows you to know what the company is collecting about you, what it is sharing, etc.
-* [Ethical Machine Learning - Spotting and Preventing Proxy Bias](https://github.com/ropenscilabs/proxy-bias-vignette/blob/master/EthicalMachineLearning.ipynb) - Jupyter Notebook from rOpenSciLabs that explores several ways of detecting unintentional bias and removing it from a predictive model.
+* [Ethical Machine Learning - Spotting and Preventing Proxy Bias](https://github.com/ropenscilabs/proxy-bias-vignette/blob/master/EthicalMachineLearning.ipynb) - Jupyter Notebook from rOpenSciLabs that explores several ways of detecting unintentional bias and removing it from a predictive model. (deprecated)
 * [Aequitas](https://dsapp.uchicago.edu/aequitas/) - An open source bias audit toolkit developed by the Center for Data Science and Public Policy at University of Chicago, can be used to audit the predictions of machine learning based risk assessment tools  to understand different types of biases, and make informed decisions about developing and deploying such systems.
 * [Fairness in Machine Learning Engineering](https://developers.google.com/machine-learning/crash-course/fairness/video-lecture) - Google's Machine Learning Crash Course includes a 70-minute section on fairness.
 * [How to Incorporate Ethics and Risk into Your Machine Learning Development Process](https://medium.com/the-official-integrate-ai-blog/how-to-incorporate-ethics-and-risk-into-your-machine-learning-development-process-4b8e9bc78ce0) - To help highlight ethics and risk in machine learning, this article looks at the six steps involved in developing an ML system, what happens in each step, and the risk and ethics questions that arise.
@@ -128,11 +127,9 @@
 * [Fairlearn](https://github.com/fairlearn/fairlearn) - A Python package to assess and improve fairness of machine learning models. 
 * [InterpretML](https://interpret.ml) - A toolkit to help understand models and enable responsible machine learning.
 * [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) - A tool to quantify the privacy risks of machine learning models with respect to inference attacks, notably membership inference attacks 
-* [Failure Modes in Machine Learning](https://docs.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning) - Privacy concerns can include model inversion, membership inference attack, etc.
 * [Privacy Considerations in Large Language Models](https://ai.googleblog.com/2020/12/privacy-considerations-in-large.html) - 
 The potential for models to leak details from the data on which they’re trained may be a concern for all large language models, and additional issues may arise if a model trained on private data were to be made publicly available.
-* [Explaining Decisions Made with AI](https://ico.org.uk/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence/) - Guidance by the UK's Information Commissioner's Office (ICO) and The Alan Turing Institute aims to give organisations practical advice to help explain the processes, services and decisions delivered or assisted by AI, to the individuals affected by them.
-* [Considerations for Sensitive Data within Machine Learning Datasets](https://cloud.google.com/architecture/sensitive-data-and-ml-datasets) - This Google Cloud article aims to highlight some strategies for identifying and protecting sensitive information, and processes to help address security concerns you might have with your machine learning data.
+* [Explaining Decisions Made with AI](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/) - Guidance by the UK's Information Commissioner's Office (ICO) and The Alan Turing Institute aims to give organisations practical advice to help explain the processes, services and decisions delivered or assisted by AI, to the individuals affected by them.
 * [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) - Responsible AI Toolbox is a suite of tools from Microsoft that provides a collection of model and data exploration and assessment user interfaces that enable a better understanding of AI systems. The Toolbox consists of four dashboards: an Error Analysis dashboard, an Interpretability dashboard, a Fairness dashboard, and a Responsible AI dashboard.
 * [Of Oaths and Checklists](https://www.oreilly.com/radar/of-oaths-and-checklists/) - A checklist for people who are working on data projects, authored by DJ Patil, Hilary Mason, and Mike Loukides.
 * [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) - A Kaggle Learn course to explore practical tools to guide the moral design of AI systems.
@@ -163,12 +160,12 @@ The potential for models to leak details from the data on which they’re traine
 * [NIST Privacy Engineering Program - De-Identification Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/browse/de-identification-tools)
 * [Presidio](https://github.com/microsoft/presidio) - Context aware, pluggable and customizable PII anonymization service for text and images, developed by Microsoft.
 * [Redacting Sensitive Information with User-Defined Functions in Amazon Athena](https://aws.amazon.com/blogs/big-data/redacting-sensitive-information-with-user-defined-functions-in-amazon-athena/) - Amazon Athena supports user-defined functions, a feature that enables you to write custom scalar functions and invoke them in SQL queries. 
-* [AWS AI-Powered Health Data Masking](https://aws.amazon.com/solutions/implementations/ai-powered-health-data-masking/) - The AI-Powered Health Data Masking solution in the AWS Solutions Library helps healthcare organizations identify and mask health data in images or text.
+* [AWS AI-Powered Health Data Masking](https://github.com/awslabs/ai-powered-health-data-masking) - The AI-Powered Health Data Masking solution in the AWS Solutions Library helps healthcare organizations identify and mask health data in images or text. (deprecated)
 * [Anonymize Your Data Using Amazon S3 Object Lambda](https://jeromevdl.medium.com/anonymise-your-data-using-amazon-s3-object-lambda-4489f0ec3863) - Leverage AWS S3 Object Lambdas in order to anonymize data.
 * [Static Data Masking for Azure SQL Database and SQL Server](https://azure.microsoft.com/en-us/blog/static-data-masking-preview/) - Microsoft's Static Data Masking is a data protection feature that helps users sanitize sensitive data in a copy of their SQL databases. It is compatible with SQL Server (SQL Server 2012 and newer), Azure SQL Database (DTU and vCore-based hosting options, excluding Hyperscale), and SQL Server on Azure Virtual Machines.
 * [Google Cloud Data Loss Prevention](https://cloud.google.com/dlp) - Google Cloud's fully managed service designed to help you discover, classify, and protect sensitive data.
 * [ARX Data Anonymization Tool](https://arx.deidentifier.org/) - ARX is a comprehensive open source software for anonymizing sensitive personal data.
-* [UTD Anonymization ToolBox](http://cs.utdallas.edu/dspl/cgi-bin/toolbox/index.php) - UT Dallas Data Security and Privacy Lab compiled various anonymization methods into a toolbox for public use by researchers.
+* [UTD Anonymization ToolBox](https://labs.utdallas.edu/dspl/software/anonymization-toolbox/) - UT Dallas Data Security and Privacy Lab compiled various anonymization methods into a toolbox for public use by researchers.
 * [Kodex](https://github.com/kiprotect/kodex) - An open-source toolkit for privacy and security engineering. It helps you to automate data security and data protection measures in your data engineering workflows.
 * [Data Anonymizer Extension for PostgreSQL](https://pgxn.org/dist/postgresql_anonymizer/0.0.3/) - A set of SQL functions that remove personally identifiable values from a PostgreSQL table and replace them with random-but-plausible values.
 * [Anonimatron](https://realrolfje.github.io/anonimatron/) - Free, extendable, open source data anonymization tool.
@@ -209,6 +206,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Private Join and Compute](https://github.com/Google/private-join-and-compute) - Google's implementation of the "Private Join and Compute" functionality. This functionality allows two users, each holding an input file, to privately compute the sum of associated values for records that have common identifiers.
 * [Facebook Private Computation Solutions](https://github.com/facebookresearch/FBPCS) - Facebook Private Computation Solutions (FBPCS) is a secure, privacy safe and scalable architecture to deploy multi-party computation applications in a distributed way on virtual private clouds via Private Scaling architecture. FBPCS consists of various services, interfaces that enable various private measurement solutions, e.g. Private Lift.
 * [Facebook Private Computation Framework](https://github.com/facebookresearch/fbpcf) - Facebook Private Computation Framework (FBPCF) library allows developers to perform randomized controlled trials, without leaking information about who participated or what action an individual took. It uses secure multiparty computation to guarantee this privacy. FBPCF is for scaling multi-party computation up via threading.
+* [EzPC (Easy Secure Multi-party Computation)](https://github.com/mpc-msri/EzPC) - EzPC is a Microsoft Research tool that converts Tensorflow and ONNX models into Secure Multi-Party Computation protocols.
 
 ### Synthetic Data
 ---
@@ -249,8 +247,8 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [IBM's Differential Privacy Library](https://github.com/IBM/differential-privacy-library) - Diffprivlib is a general-purpose library for experimenting with, investigating and developing applications in, differential privacy.
 * [Microsoft's SmartNoise](https://opendifferentialprivacy.github.io) - This toolkit uses state-of-the-art differential privacy techniques to inject noise into data, to prevent disclosure of sensitive information and manage exposure risk. 
 * [NIST Differential Privacy Blog Series](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog) - This series is designed to help business process owners and privacy program personnel understand basic concepts about differential privacy and applicable use cases and to help privacy engineers and IT professionals implement the tools.
-* [RAPPOR](https://github.com/google/rappor) - Randomized Aggregatable Privacy-Preserving Ordinal Response (RAPPOR) is a technology for crowdsourcing statistics from end-user client software, anonymously, with strong privacy guarantees.
-* [FedML](https://fedml.ai) - FedML - The federated learning and distributed training library enabling machine learning anywhere at any scale. It's backed by [FedML, Inc](https://FedML.ai). Supporting large-scale geo-distributed training, cross-device federated learning on smartphones/IoTs, cross-silo federated learning on data silos, and research simulation. Best Paper Award at NeurIPS 2020.
+* [RAPPOR](https://github.com/google/rappor) - Randomized Aggregatable Privacy-Preserving Ordinal Response (RAPPOR) is a technology for crowdsourcing statistics from end-user client software, anonymously, with strong privacy guarantees. (deprecated)
+* [FedML](https://github.com/FedML-AI/FedML/) - FedML - The federated learning and distributed training library enabling machine learning anywhere at any scale. It's backed by [FedML, Inc](https://FedML.ai). Supporting large-scale geo-distributed training, cross-device federated learning on smartphones/IoTs, cross-silo federated learning on data silos, and research simulation. Best Paper Award at NeurIPS 2020.
 * [FedJAX](https://github.com/google/fedjax) - Google's JAX-based open source library for federated learning simulations that emphasizes ease-of-use in research.
 * [diffpriv: Easy Differential Privacy](https://cran.r-project.org/package=diffpriv) - R package that is an implementation of major general-purpose mechanisms for privatizing statistics, models, and machine learners, within the framework of differential privacy of Dwork et al. (2006).
 * [sdcMicro: Statistical Disclosure Control Methods for Anonymization of Microdata and Risk Estimation](https://cran.r-project.org/package=sdcMicro) -  R package that can be used for the generation of anonymized (micro)data, i.e. for the creation of public- and scientific-use files. 
@@ -267,7 +265,6 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
     * [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy.
     * [TensorFlow Federated](https://www.tensorflow.org/federated) - TensorFlow Federated (TFF) is an open-source framework for machine learning and other computations on decentralized data.
     * [TensorFlow Encrypted](https://github.com/tf-encrypted/tf-encrypted) - TF Encrypted is a framework for encrypted machine learning in TensorFlow.
-    * [CrypTFlow](https://github.com/mpc-msri/EzPC) - CrypTFlow is a system for end-to-end secure inference of deep neural networks written in TensorFlow.
 * Four-Episode Podcast on Differential Privacy by [This Week in Machine Learning and AI](https://twimlai.com)
     * [Differential Privacy Theory & Practice with Aaron Roth](https://twimlai.com/twiml-talk-132-differential-privacy-theory-practice-with-aaron-roth/)
     * [Differential Privacy at Bluecore with Zahi Karam](https://twimlai.com/twiml-talk-133-differential-privacy-at-bluecore-with-zahi-karam/)
@@ -277,8 +274,8 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
     * [Privacy-Preserving Decentralized Data Science with Andrew Trask](https://twimlai.com/twiml-talk-241-privacy-preserving-decentralized-data-science/)
 * Four-Article Series on Differential Privacy by Singapore's Data Privacy Protection Capability Centre (DPPCC):
     * [Sharing Data with Differential Privacy: A Primer](https://medium.com/dsaid-govtech/protecting-your-data-privacy-with-differential-privacy-an-introduction-abee1d7fcb63)
-    * [Practitioners’ Guide to Accessing Emerging Differential Privacy Tools](https://medium.com/dsaid-govtech/practitioners-guide-to-accessing-emerging-differential-privacy-tools-861acddb2a44#c4c0)
-    * [Evaluating Differential Privacy Tools’ Performance](https://medium.com/dsaid-govtech/evaluating-differential-privacy-tools-performance-dc75e8efb03e#0829)
+    * [Practitioners’ Guide to Accessing Emerging Differential Privacy Tools](https://medium.com/dsaid-govtech/practitioners-guide-to-accessing-emerging-differential-privacy-tools-861acddb2a44)
+    * [Evaluating Differential Privacy Tools’ Performance](https://medium.com/dsaid-govtech/evaluating-differential-privacy-tools-performance-dc75e8efb03e)
     * [Getting Started with Scalable Differential Privacy Tools on the Cloud](https://medium.com/dsaid-govtech/getting-started-with-scalable-differential-privacy-tools-on-the-cloud-53ed65322584)
 
 ### Designing for Trust with Users
@@ -315,26 +312,26 @@ ___
 
 ### Regulatory and Framework Resources
 ---
-* [Global Comprehensive Privacy Law Mapping Chart](https://iapp.org/resources/article/global-comprehensive-privacy-law-mapping-chart/) - The IAPP's Westin Research Center has created this chart mapping several comprehensive data protection laws.
+* [Global Comprehensive Privacy Law Mapping Chart](https://iapp.org/media/pdf/resource_center/global_comprehensive_privacy_law_mapping.pdf) - The IAPP's Westin Research Center has created this chart mapping several comprehensive data protection laws.
 * [US State Privacy Legislation Tracker](https://iapp.org/resources/article/us-state-privacy-legislation-tracker/) - The IAPP Westin Research Center actively tracks the proposed and enacted comprehensive privacy bills from across the United States.
 * [Privacy in M&A Transactions: The Playbook](https://iapp.org/resources/article/privacy-in-ma-transactions-playbook/) - The playbook is directed to mergers and acquisitions (M&A) and privacy teams to help identify potential privacy-related issues.
 * [European Data Protection Supervisor Website Evidence Collector](https://github.com/EU-EDPS/website-evidence-collector) - The Website Evidence Collector tool automates the collection of evidence of personal data processing, such as cookies, or requests to third parties.
 * [European Data Protection Board Website Auditing Tool](https://code.europa.eu/edpb/website-auditing-tool/-/releases) - The Website Auditing Tool is used to collect evidence and generate reports regarding trackers that are being used by websites.
-* [webXray](https://webxray.org/) - webXray is a command line tool for analyzing webpage traffic and content, extracting legal policies, and identifying the companies which collect user data.
+* [webXray](https://webxray.org/) - webXray is a [command line tool](https://github.com/agilemobiledev/webXray) for analyzing webpage traffic and content, extracting legal policies, and identifying the companies which collect user data.
 * [GDPR Developer Guide](https://github.com/LINCnil/GDPR-Developer-Guide) - In order to assist web and application developers in making their work GDPR-compliant, France's Data Protection Agency, the CNIL, has drawn up a guide of best practices.
 * [Data Protection/Privacy Mapping Project](https://github.com/microsoft/data-protection-mapping-project) - Microsoft's Data Protection/Privacy Mapping Project facilitates consistent global comprehension and implementation of data protection with an open source mapping between ISO/IEC 27701 and global data protection and/or privacy laws and regulations.
 * [European Data Protection Board Guidelines 4/2019 on Article 25, Data Protection by Design and by Default](https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) - This document gives general guidance on the obligation of Data Protection by Design and by Default set forth in Article 25 in the GDPR.
-* [A Guide to Privacy by Design](https://www.aepd.es/sites/default/files/2019-12/guia-privacivdad-desde-diseno_en.pdf) - This document by Spain's Data Protection Agency, AEPD, provides guidance on implementation of Privacy by Design into systems and applications.
-* [Guidance on Anonymisation and Pseudonymisation](https://www.dataprotection.ie/sites/default/files/uploads/2022-04/Anonymisation%20and%20Pseudonymisation%20-%20latest%20April%202022.pdf) - This document from the Irish Data Protection Commission (DPC) offers guidance on implementation of anonymization and pseudonuymization.
+* [A Guide to Privacy by Design](https://www.aepd.es/guides/guide-to-privacy-by-design.pdf) - This document by Spain's Data Protection Agency, AEPD, provides guidance on implementation of Privacy by Design into systems and applications.
+* [Guidance on Anonymisation and Pseudonymisation](https://www.dataprotection.ie/en/dpc-guidance/anonymisation-and-pseudonymisation) - This document from the Irish Data Protection Commission (DPC) offers guidance on implementation of anonymization and pseudonuymization.
 * [Emerging Privacy Enhancing Technologies: Current Regulatory and Policy Approaches](https://www.oecd-ilibrary.org/science-and-technology/emerging-privacy-enhancing-technologies_bf121be4-en) - The Organisation for Economic Co-operation and Development (OECD)'s report reviews recent technological advancements and evaluates the effectiveness of different types of privacy enhancing technologies (PETs), as well as the challenges and opportunities they present.
 * [UN Guide on Privacy-Enhancing Technologies for Official Statistics](https://unstats.un.org/bigdata/task-teams/privacy/guide/) - This United Nations (UN) document presents methodologies and approaches to mitigating privacy risks when using sensitive or confidential data.
-* [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NIST IR 8062)](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
+* [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NIST IR 8062)](https://csrc.nist.gov/pubs/ir/8062/final) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
 * [De-Identifying Government Datasets: Techniques and Governance (NIST SP 800-188)](https://csrc.nist.gov/pubs/sp/800/188/final) - NIST Special Publication 800-188 describes the use of deidentification while still allowing for the production of meaningful statistical analysis for US federal agencies.
 * [Guidelines for Evaluating Differential Privacy Guarantees (NIST SP 800-226)](https://csrc.nist.gov/pubs/sp/800/226/ipd) - NIST Special Publication 800-226 is intended to help US federal agencies and practitioners of all backgrounds better understand how to evaluate promises made (and not made) when deploying differential privacy.
 
 ### Conferences
 ---
-* [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr23)
+* [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr24)
     * [PEPR 2023 Conference](https://www.usenix.org/conference/pepr23) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5le5MLOePeumxpQfUg2Gyfui)
     * [PEPR 2022 Conference](https://www.usenix.org/conference/pepr22/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lfUtLXo1bRFILHssRK-5ETT)
     * [PEPR 2021 Conference](https://fpf.org/fpf-event/pepr-2021-conference-on-privacy-engineering-practice-and-respect-2/) | [Videos](https://www.youtube.com/watch?v=lenVTvDMWxM&list=PL_cjZ5iVWe7n0sU5g0o8zTZSMLAvfl4nL)
@@ -342,7 +339,7 @@ ___
     * [PEPR 2019 Conference](https://www.usenix.org/conference/pepr19/conference-program) (slides only)
 * [USENIX Enigma Conference](https://www.usenix.org/enigma)
 * [Symposium on Usable Privacy and Security (SOUPS)](https://www.usenix.org/conference/soups2023)
-* [International Workshop on Privacy Engineering](https://iwpe.info/index.html)
+* [International Workshop on Privacy Engineering (IWPE)](https://iwpe.info/index.html)
 
 ### Career
 ___
