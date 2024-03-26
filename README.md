@@ -110,9 +110,8 @@
 
 ### Machine Learning and Algorithmic Bias
 ---
-* [Pribot and Polisis](https://pribot.org) - Polisis is a unique way of visualizing privacy policies. Using deep learning, it allows you to know what the company is collecting about you, what it is sharing, etc.
-* [Ethical Machine Learning - Spotting and Preventing Proxy Bias](https://github.com/ropenscilabs/proxy-bias-vignette/blob/master/EthicalMachineLearning.ipynb) - Jupyter Notebook from rOpenSciLabs that explores several ways of detecting unintentional bias and removing it from a predictive model. (deprecated)
 * [Aequitas](https://dsapp.uchicago.edu/aequitas/) - An open source bias audit toolkit developed by the Center for Data Science and Public Policy at University of Chicago, can be used to audit the predictions of machine learning based risk assessment tools  to understand different types of biases, and make informed decisions about developing and deploying such systems.
+* [Ethical Machine Learning - Spotting and Preventing Proxy Bias](https://github.com/ropenscilabs/proxy-bias-vignette/blob/master/EthicalMachineLearning.ipynb) - Jupyter Notebook from rOpenSciLabs that explores several ways of detecting unintentional bias and removing it from a predictive model. (deprecated)
 * [Fairness in Machine Learning Engineering](https://developers.google.com/machine-learning/crash-course/fairness/video-lecture) - Google's Machine Learning Crash Course includes a 70-minute section on fairness.
 * [How to Incorporate Ethics and Risk into Your Machine Learning Development Process](https://medium.com/the-official-integrate-ai-blog/how-to-incorporate-ethics-and-risk-into-your-machine-learning-development-process-4b8e9bc78ce0) - To help highlight ethics and risk in machine learning, this article looks at the six steps involved in developing an ML system, what happens in each step, and the risk and ethics questions that arise.
 * [DrivenData: Deon](https://deon.drivendata.org/examples/) - A command line tool to easily add an ethics checklist to your data science projects.
@@ -145,6 +144,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Trustworthy ML Initiative](https://www.trustworthyml.org/home) - The Trustworthy ML Initiative is a community of researchers and practitioners working on topics related to machine learning models and algorithms that are accurate, explainable, fair, privacy-preserving, causal, and robust.
 * [AI Nutrition Facts Labels](https://nutrition-facts.ai/) - Tool from Twilio that allows generation of AI Nutrition Labels intended to give consumers and businesses a more transparent and clear view into ‘what's in the box’.
 * [Explainable Artificial Intelligence](https://interpretable-ml-class.github.io/) - This course syllabus from Harvard University aims to familiarize students with the recent advances in the emerging field of eXplainable Artificial Intelligence (XAI).
+* [SecretFlow](https://github.com/secretflow/secretflow) - SecretFlow is a unified framework for privacy-preserving data analysis and machine learning.
 
 ### Facial Recognition
 ---
@@ -195,6 +195,7 @@ The potential for models to leak details from the data on which they’re traine
 * [TFHE](https://github.com/tfhe/tfhe) - The original version of TFHE (Fast Fully Homomorphic Encryption Library over the Torus) that implements the base arithmetic and functionalities (bootstrapped and leveled), allowing you to perform computations over encrypted data.
 * [Concrete](https://github.com/zama-ai/concrete) - The concrete ecosystem is a set of crates (packages in the Rust language) that implements Zama's variant of TFHE, while most of the complexity of fully homomorphic encryption is hidden under high-level APIs.
 * [FHE.org](https://fhe.org/) - Community of researchers and developers interested in advancing Fully Homomorphic Encryption (FHE) and other secure computation techniques.
+* [blyss](https://github.com/blyssprivacy/sdk) - Open-source SDK for accessing data privately using homomorphic encryption.
 
 ### Tokenization
 ---
@@ -226,6 +227,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
     * [Gretel Synthetics](https://github.com/gretelai/gretel-synthetics) - Synthetic data generators for structured and unstructured text, featuring differentially private learning.
     * [GDPR Helpers](https://github.com/gretelai/gdpr-helpers) - Generative models to automatically anonymize data to meet GDPR & CCPA standards.
     * [Anonymize Tabular Data to Meet GDPR Privacy Requirements](https://gretel.ai/blog/anonymize-tabular-data-to-meet-gdpr-privacy-requirements) - A blog post covering how to use Gretel's GDPR Helpers.
+* [Differentially Private Synthetic Data via Foundation Model APIs (DPSDA)](https://github.com/microsoft/DPSDA) - This repo is a Python library to generate differentially private synthetic data without the need of any ML model training.
 
 ### Differential Privacy and Federated Learning
 ---
@@ -354,6 +356,7 @@ ___
 * [Microphones and the Internet of Things (FPF Infographic)](https://fpf.org/wp-content/uploads/2017/08/Microphones-Infographic-Final.pdf)
 * [GDPR – A Practical Guide For Developers](https://techblog.bozho.net/gdpr-practical-guide-developers/)
 * [W3C Self-Review Questionnaire: Security and Privacy](https://www.w3.org/TR/security-privacy-questionnaire/)
+* [OWASP Mobile Application Security Verification Standard (MASVS) - PRIVACY](https://mas.owasp.org/MASVS/12-MASVS-PRIVACY/)
 * [Privacy is an Afterthought in the Software Lifecycle. That Needs to Change](https://stackoverflow.blog/2021/07/19/privacy-is-an-afterthought-in-the-software-lifecycle-that-needs-to-change/)
 * [How Uber is Approaching Data Privacy Architecture](https://thecustomer.net/uber-data-privacy-architecture/)
 * [Microsoft - Code with Engineering Playbook: Privacy Fundamentals](https://microsoft.github.io/code-with-engineering-playbook/privacy/)
