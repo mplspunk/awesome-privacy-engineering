@@ -146,6 +146,7 @@ The potential for models to leak details from the data on which they’re traine
 * [AI Nutrition Facts Labels](https://nutrition-facts.ai/) - Tool from Twilio that allows generation of AI Nutrition Labels intended to give consumers and businesses a more transparent and clear view into ‘what's in the box’.
 * [Explainable Artificial Intelligence](https://interpretable-ml-class.github.io/) - This course syllabus from Harvard University aims to familiarize students with the recent advances in the emerging field of eXplainable Artificial Intelligence (XAI).
 * [SecretFlow](https://github.com/secretflow/secretflow) - SecretFlow is a unified framework for privacy-preserving data analysis and machine learning.
+* [Model Selection in Machine Learning](https://www.appliedaicourse.com/blog/model-selection-in-machine-learning/) - Learn the key techniques and strategies for effective model selection in machine learning to optimize accuracy and performance.
 
 ### Facial Recognition
 ---
