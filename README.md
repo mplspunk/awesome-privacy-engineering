@@ -103,6 +103,7 @@
 ---
 * [LINDDUN](https://www.linddun.org/linddun) - The LINDDUN privacy engineering framework provides systematic support for the elicitation and mitigation of privacy threats in software systems.
 * [LINDDUN GO](https://www.linddun.org/go) - LINDDUN GO is designed to give you a quick start to privacy threat modeling.
+* [PILLAR](https://github.com/stfbk/PILLAR) - PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report) is an LLM-powered privacy threat modeling tool.
 * [PLOT4AI](https://plot4.ai/) - Privacy Library Of Threats 4 Artificial Intelligence (PLOT4AI) is a threat modeling library to help practitioners build responsible artificial intelligence.
 * [Draw.io Libraries for Threat Modeling](https://github.com/michenriksen/drawio-threatmodeling) - Collection of custom libraries for using the Draw.io diagramming application for threat modeling.
 * [xCompass](https://github.com/Comcast/xCompass) - A privacy threat modeling persona framework that developers can use to test and document privacy threats, and find edge cases of privacy harm (formerly named Models of Applied Privacy (MAP)).
