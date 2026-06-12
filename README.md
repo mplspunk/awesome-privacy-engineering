@@ -333,6 +333,14 @@ ___
 * [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NIST IR 8062)](https://csrc.nist.gov/pubs/ir/8062/final) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
 * [De-Identifying Government Datasets: Techniques and Governance (NIST SP 800-188)](https://csrc.nist.gov/pubs/sp/800/188/final) - NIST Special Publication 800-188 describes the use of deidentification while still allowing for the production of meaningful statistical analysis for US federal agencies.
 * [Guidelines for Evaluating Differential Privacy Guarantees (NIST SP 800-226)](https://csrc.nist.gov/pubs/sp/800/226/ipd) - NIST Special Publication 800-226 is intended to help US federal agencies and practitioners of all backgrounds better understand how to evaluate promises made (and not made) when deploying differential privacy.
+* [Personal Information Protection Law (PIPL)](http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313091.html) - China's primary personal information protection statute (2021); covers consent, data subject rights, cross-border transfers, and sensitive personal information.
+* [Data Security Law (DSL)](http://www.npc.gov.cn/npc/c2/c30834/202106/t20210610_311888.html) - China's data security framework governing data classification, national security review, and cross-border data flows (2021).
+* [Cybersecurity Law (CSL)](http://www.npc.gov.cn/npc/c2/c30834/201611/t20161107_404543.html) - China's foundational statute for network security and critical information infrastructure protection (2017).
+* [Cyberspace Administration of China (CAC)](https://www.cac.gov.cn/) - Primary regulator for personal information protection and AI governance in China; publishes all subordinate regulations including cross-border transfer rules and generative AI measures.
+* [Network Data Security Management Regulation (2025)](https://www.chinalawtranslate.com/network-data-security-management-regulation/) - Comprehensive regulation on network data processing obligations, effective January 1, 2025.
+* [GB/T 35273-2020 — Personal Information Security Specification](https://openstd.samr.gov.cn/) - China's national standard providing detailed implementation guidance for PIPL compliance; widely referenced in regulatory enforcement.
+* [OpenPIIMap — China PIPL Data Mapping](https://github.com/intelation/openpiimap) - Open-source machine-readable mapping of China's PIPL personal information categories with legal citations; contributed by a China-based privacy lawyer (2026).
+* [Awesome Legaltech — China AI Compliance Section](https://github.com/Vaquill-AI/awesome-legaltech) - Curated list of China AI compliance and data protection resources including core legislation, subordinate regulations, and regulatory authorities.
 
 ### Conferences
 ---
