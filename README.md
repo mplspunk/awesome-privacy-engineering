@@ -203,6 +203,7 @@ The potential for models to leak details from the data on which they’re traine
 ### Tokenization
 ---
 * [AWS Serverless Tokenization](https://github.com/aws-samples/aws-serverless-tokenization) - Learn how to use Lambda Layers to develop a serverless tokenization solution in AWS.
+* [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open-source Privacy Gateway that applies deterministic, reversible tokenization to sensitive data (IPs, hosts, credentials, PII) before it reaches an LLM, rehydrating locally so plaintext never leaves the perimeter.
 * [auto-data-tokenize](https://github.com/GoogleCloudPlatform/auto-data-tokenize) - This repo demonstrates a reference implementation of detecting and tokenizing sensitive structured data within Google Cloud Platform.
 
 ### Secure Multi-Party Computation
