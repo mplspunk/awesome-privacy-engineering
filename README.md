@@ -334,6 +334,7 @@ ___
 * [An Introduction to Privacy Engineering and Risk Management in Federal Systems (NIST IR 8062)](https://csrc.nist.gov/pubs/ir/8062/final) - National Institute of Standards and Technology (NIST) Internal Report 8062 provides an introduction to the concepts of privacy engineering and risk management for US federal systems.
 * [De-Identifying Government Datasets: Techniques and Governance (NIST SP 800-188)](https://csrc.nist.gov/pubs/sp/800/188/final) - NIST Special Publication 800-188 describes the use of deidentification while still allowing for the production of meaningful statistical analysis for US federal agencies.
 * [Guidelines for Evaluating Differential Privacy Guarantees (NIST SP 800-226)](https://csrc.nist.gov/pubs/sp/800/226/ipd) - NIST Special Publication 800-226 is intended to help US federal agencies and practitioners of all backgrounds better understand how to evaluate promises made (and not made) when deploying differential privacy.
+* [OWASP AI Exchange](https://owaspai.org/) - Open-source guidance on AI security and privacy threats, controls, and best practices; formerly the OWASP AI Security and Privacy Guide.
 
 ### Conferences
 ---
