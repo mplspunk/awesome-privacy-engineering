@@ -339,7 +339,9 @@ ___
 
 ### Conferences
 ---
-* [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr25)
+* [USENIX Conference on Privacy Engineering Practice and Respect (PEPR)](https://www.usenix.org/conference/pepr26)       
+    * [PEPR 2026 Conference](https://www.usenix.org/conference/pepr26) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lfgXYsyyNLx-hbXB73Bbwqu)
+    * [PEPR 2025 Conference](https://www.usenix.org/conference/pepr25) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5ld9aLCYK5qVw1-1Es6pKnOZ)
     * [PEPR 2024 Conference](https://www.usenix.org/conference/pepr24) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5ldxIsGMFjwixoLxQ1iMq_BH)
     * [PEPR 2023 Conference](https://www.usenix.org/conference/pepr23) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5le5MLOePeumxpQfUg2Gyfui)
     * [PEPR 2022 Conference](https://www.usenix.org/conference/pepr22/conference-program) | [Videos](https://www.youtube.com/playlist?list=PLbRoZ5Rrl5lfUtLXo1bRFILHssRK-5ETT)
