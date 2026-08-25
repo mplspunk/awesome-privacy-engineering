@@ -74,6 +74,7 @@
     * [Data Purging AWS Data Lake](https://github.com/aws-samples/data-purging-aws-data-lake)
 * [Best Practices: GDPR and CCPA Compliance Using Delta Lake](https://docs.databricks.com/security/privacy/gdpr-delta.html) - Article that describes how to use Delta Lake on Databricks to manage General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) compliance for a data lake. 
 * [Klaro!](https://github.com/kiprotect/klaro) - Klaro is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website.
+* [CookieKompas](https://cookiekompas.nl) - Dutch cookie banner (CMP) with Google Consent Mode v2, tagged script blocking, a cookie scanner and a consent log.
 * [OpenDSR](https://github.com/opengdpr/OpenDSR) - A common framework enabling companies to work together to protect consumers' privacy and data rights (formerly known as OpenGDPR.)
 * [PrivacyBot](https://github.com/privacybot-berkeley/privacybot) - PrivacyBot is a simple automated service to initiate CCPA deletion requests with data brokers. (deprecated)
 * [Cookie Consent](https://github.com/osano/cookieconsent) - An opensource, lightweight JavaScript plugin for alerting users about the use of cookies on a website. It is designed to help quickly comply with the European Union Cookie Law, CCPA, GDPR and other privacy laws.
