@@ -173,6 +173,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Anonimatron](https://realrolfje.github.io/anonimatron/) - Free, extendable, open source data anonymization tool.
 * [Anonymizer MySQL](https://www.npmjs.com/package/anonymizer-mysql) - This simple tool will allow you to make anonymizerd clone of your database.
 * [myanon](https://github.com/ppomes/myanon) - A streaming anonymizer for MySQL dump files. Reads mysqldump from stdin and writes an anonymized version to stdout. Supports deterministic hashing, fixed values, JSON field anonymization, and Python extensions.
+* [dbmask](https://github.com/sealandseacat/dbmask) - An open-source Python tool that discovers sensitive columns in SQL databases, masks them with deterministic fakes, and then validates the masking row by row against the original copy.
 * [MySQL Data Anonymizer](https://github.com/globalis-ms/mysql-data-anonymizer) - MySQL Data Anonymizer is a PHP library that anonymizes your data in the database.
 * [Anonymizer](https://github.com/DivanteLtd/anonymizer) - Anonymizer is a universal tool to create anonymized DBs for projects.
 * [anonymize-it](https://github.com/elastic/anonymize-it) - The Elastic Machine Learning Team's general purpose tool for suppression, masking, and generalization of fields to aid data pseudonymization.
