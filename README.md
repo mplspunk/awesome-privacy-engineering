@@ -359,6 +359,7 @@ ___
 * [Ethyca's Privacy Engineering Job Board](https://ethyca.com/privacy-engineering-jobs-board)
 
 ### Miscellaneous
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — record & replay AI coding-agent runs offline.
 ___
 * [The World of Geolocation Data (FPF Infographic)](https://fpf.org/wp-content/uploads/2020/05/FPF_Geolocation_Infographic_May_2020.pdf)
 * [Data and the Connected Car (FPF Infographic)](https://fpf.org/wp-content/uploads/2017/06/2017_0627-FPF-Connected-Car-Infographic-Version-1.0.pdf)
