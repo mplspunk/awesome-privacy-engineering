@@ -228,6 +228,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
 * [Mimesis](https://github.com/lk-geimfari/mimesis) - Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages. 
 * [plaitpy](https://github.com/plaitpy/plaitpy) - plait.py is a program for generating fake data from composable yaml templates.
 * [Bogus](https://github.com/bchavez/Bogus) - Bogus is a simple fake data generator for .NET languages like C#, F# and VB.NET.
+* [Mock Jutsu](https://github.com/altansayan/mock-jutsu-api) - Checksum-valid financial and identity test data generator (IBAN MOD-97, Luhn cards, TCKN, ISIN), plus real registered BIC/SWIFT codes - unlike format-only fakers, every value passes real validation.
 * Gretel AI:
     * [Gretel Synthetics](https://github.com/gretelai/gretel-synthetics) - Synthetic data generators for structured and unstructured text, featuring differentially private learning.
     * [GDPR Helpers](https://github.com/gretelai/gdpr-helpers) - Generative models to automatically anonymize data to meet GDPR & CCPA standards.
