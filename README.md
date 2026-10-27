@@ -187,6 +187,7 @@ The potential for models to leak details from the data on which they’re traine
 * [Technical Privacy Metrics: a Systematic Survey](https://arxiv.org/abs/1512.00327) - Paper by Isabel Wagner and David Eckhoff that discusses over 80 privacy metrics and introduces categorizations based on the aspect of privacy they measure, their required inputs, and the type of data that needs protection. They also present a method on how to choose privacy metrics based on nine questions that help identify the right privacy metrics for a given scenario.
 * [Data Anonymization Tool](https://www.pdpc.gov.sg/Help-and-Resources/2018/01/Basic-Anonymisation) - The Singapore PDPC has launched a free Data Anonymization tool to help organizations transform simple datasets by applying basic anonymization techniques. 
 * [Masked AI](https://github.com/cado-security/masked-ai) - Python SDK and CLI wrappers that enable safer usage of public large language models (LLMs) like OpenAI/GPT4 by removing sensitive data from prompts and replacing it with fake data before submitting to the OpenAI API.
+* [Redact by Desert Ant Labs](https://desertant.com/models/redact/) - On-device PII redaction for text in 27 languages. It runs in the browser, on a phone or in Node, and can put the original values back after the masked text has been through an external LLM.
 
 ### Homomorphic Encryption
 ---
