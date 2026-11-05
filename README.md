@@ -300,6 +300,7 @@ https://github.com/microsoft/presidio-research/tree/master/presidio_evaluator/da
     * [Part 3: Better Notifications UX and Permissions Requests](https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-permission-requests/)
     * [Part 4: Privacy-Aware Design Framework](https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/)
 * [Lean Privacy Review](http://www.leanprivacyreview.com/#) - Carnegie Mellon University researchers developed a fast, easy method to catch privacy issues early in a system’s development process by gathering feedback from users.
+* [Open Source Analytics](https://opensource-analytics.com/) - Editorial guides comparing privacy-friendly, self-hosted, and open-source web analytics for production use.
 
 ### Deceptive Design Patterns
 ---
