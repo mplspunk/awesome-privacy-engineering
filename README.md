@@ -85,6 +85,7 @@
 * [Octopii](https://github.com/redhuntlabs/Octopii) - Octopii is an open-source AI-powered PII scanner that can look for image assets such as Government IDs, passports, photos and signatures in a directory.
 * [Data Profiler](https://github.com/capitalone/DataProfiler) - DataProfiler is a Python library created by Capital One to make data analysis, monitoring, and sensitive data detection easy.
 * [PII Catcher](https://github.com/tokern/piicatcher) - Scan databases and data warehouses for PII data. Tag tables and columns in data catalogs like Amundsen and Datahub.
+* [lgpd-skills](https://github.com/goul4rt/lgpd-skills) - Modular Agent Skills toolkit (Claude Code, Codex, Cursor, Gemini CLI, OpenCode) for LGPD & ECA Digital privacy engineering, automated code audits, data mapping, consent ledgers, LINDDUN threat modeling, and DSAR endpoints.
 
 ### Privacy Tech Series by [Lea Kissner](https://twitter.com/leakissner?lang=en)
 ---
